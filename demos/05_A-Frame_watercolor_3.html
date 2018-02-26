@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<title>Streetball VR Game Tutorial Stage 1</title>
+	<meta name="description" content="A-Frame Meetup NYC demo">
+	<meta name="author" content="Roland Dubois">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+
+</head>
+<body>
+	<a-scene>
+
+		<a-assets>
+		    <img id="textureA" src="assets/texture.jpg">
+		    <img id="textureB" src="assets/textureB.jpg">
+		    <img id="textureC" src="assets/textureC.jpg">
+
+			<a-mixin id="box" 
+					 geometry="primitive:box; width:0.75; height:0.5; depth:0.65;"
+					 material="color: #fff;roughness: 0.7;metalness: 0.5;"
+					 >					 
+			</a-mixin>
+		</a-assets>
+
+		<a-light
+			type="directional"
+			color="#FFF"
+			intensity="1"
+			position="-1 1 2">
+		</a-light>
+		<a-light
+			type="ambient"
+			color="#ebd9e9">
+		</a-light>
+
+		<a-sky src="assets/gradient.png"></a-sky>
+
+	</a-scene>
+	<script>
+		var scene = document.querySelector('a-scene');
+    	var boxA = document.createElement('a-entity');
+		    boxA.setAttribute('mixin', 'box');
+		    boxA.setAttribute('material', 'src' , '#textureA');
+		    boxA.setAttribute('position', '0 2 -2');
+		    boxA.setAttribute('rotation', '0 30 30');
+
+    		scene.appendChild(boxA);
+
+    	var boxB = document.createElement('a-entity');
+		    boxB.setAttribute('mixin', 'box');
+		    boxB.setAttribute('material', 'src' , '#textureB');
+		    boxB.setAttribute('position', '3 3 -5');
+		    boxB.setAttribute('rotation', '15 0 45');
+
+    		scene.appendChild(boxB);
+
+    	var boxC = document.createElement('a-entity');
+		    boxC.setAttribute('mixin', 'box');
+		    boxC.setAttribute('material', 'src' , '#textureC');
+		    boxC.setAttribute('position', '-3 1 -5');
+		    boxC.setAttribute('rotation', '45 0 60');
+
+    		scene.appendChild(boxC);
+    
+    	var t = 0;
+	    function render() {
+	      t += 0.01;
+	      requestAnimationFrame(render);
+	      boxA.setAttribute('rotation', '0 '+(Math.sin(t*2)*180)+' 30');
+	      boxB.setAttribute('rotation', '15 '+(Math.sin(t*1)*180)+' 45');
+	      boxC.setAttribute('rotation', '45 '+(Math.sin(t*4)*180)+' 60');
+	    }
+	    render();
+	</script>
+</body>
+</html>

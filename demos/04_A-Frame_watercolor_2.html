@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<title>Streetball VR Game Tutorial Stage 1</title>
+	<meta name="description" content="A-Frame Meetup NYC demo">
+	<meta name="author" content="Roland Dubois">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+
+</head>
+<body>
+	<a-scene>
+
+		<a-assets>
+		    <img id="textureA" src="assets/texture.jpg">
+		    <img id="textureB" src="assets/textureB.jpg">
+		    <img id="textureC" src="assets/textureC.jpg">
+
+			<a-mixin id="box" 
+					 geometry="primitive:box; width:0.75; height:0.5; depth:0.65;"
+					 material="color: #fff;roughness: 0.7;metalness: 0.5;"
+					 >					 
+			</a-mixin>
+		</a-assets>
+
+		<a-light
+			type="directional"
+			color="#FFF"
+			intensity="1"
+			position="-1 1 2">
+		</a-light>
+		<a-light
+			type="ambient"
+			color="#ebd9e9">
+		</a-light>
+
+		<a-sky
+			src="assets/gradient.png"
+			>			
+		</a-sky>
+
+
+		<a-entity mixin="box" material="src:#textureA;"
+				  position="0 2 -2" 
+				  rotation="0 30 30">
+			<a-animation
+				attribute="rotation"
+				from="20 0 0"
+				to="20 360 0"
+				direction="alternate"
+				dur="6000"
+				repeat="indefinite"
+				easing="ease">
+			</a-animation>
+		</a-entity>
+
+		<a-entity mixin="box" material="src:#textureB;"
+				  position="3 3 -5" 
+				  rotation="15 0 45">
+			<a-animation
+				attribute="rotation"
+				from="15 0 0"
+				to="15 360 0"
+				direction="alternate"
+				dur="6000"
+				repeat="indefinite"
+				easing="ease">
+			</a-animation>
+		</a-entity>
+
+		<a-entity mixin="box" material="src:#textureC;"
+				  position="-3 1 -5" 
+				  rotation="45 0 60">
+			<a-animation
+				attribute="rotation"
+				from="45 0 0"
+				to="45 360 0"
+				direction="alternate"
+				dur="2000"
+				repeat="indefinite"
+				easing="ease">
+			</a-animation>
+		</a-entity>
+
+	</a-scene>
+</body>
+</html>

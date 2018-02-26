@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<title>Gaze-Based Cursor Interactions</title>
+	<meta name="description" content="A-Frame Meetup NYC demo">
+	<meta name="author" content="Roland Dubois">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v3.0.1/dist/aframe-physics-system.min.js"></script>
+
+    <script>
+      	AFRAME.registerComponent('clickable', {
+        	init: function () {
+	          	var el = this.el;  
+	          	el.addEventListener('mouseenter', function () {
+	            	el.setAttribute('color', '#15a');  
+	          	});
+	          	el.addEventListener('mouseleave', function () {
+	            	el.setAttribute('color', '#fff');  
+	          	});
+	          	el.addEventListener('click', function () {
+	            	el.setAttribute('material', 'src' , '#football');
+	          	});
+	        } 
+      	});
+    </script>
+</head>
+<body>
+	<a-scene physics="debug:false; friction: 0.1; restitution: 0.75">
+  		<a-assets>
+    		<img id="sky" src="assets/grass_sky.jpg">
+    		<img id="grass" src="assets/grass.jpg">
+    		<img id="basketball" src="assets/basketball.png">
+		    <img id="football" src="assets/football.png">
+		</a-assets>
+
+		<a-light type="directional" color="#ebd9e9" intensity="1" position="-2 3 1"></a-light>
+		<a-light type="ambient" color="#ebd9e9"></a-light>
+
+		<a-sphere src="#basketball" radius="0.5" color="#fff" position="0 15 -4" rotate="30 30 30" clickable dynamic-body></a-sphere>
+
+		<a-camera><a-cursor></a-cursor></a-camera>
+		<a-sky color="#fff" src="#sky"></a-sky>
+		<a-cone static-body color="#b08d63" src="#grass" radius-bottom="0.5" radius-top="0" position="0.02 -0.25 -4"></a-cone>
+		<a-plane static-body color="#b08d63" src="#grass" repeat="100 100" rotation="-90 0 0" width="300" height="300"></a-plane>
+
+	</a-scene>
+</body>
