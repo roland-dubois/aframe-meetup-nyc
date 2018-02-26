@@ -366,14 +366,14 @@ Hardware accelerated rendering of 3D objects.
 
 **Resources**
 * [A-Frame Slack](https://aframevr-slack.herokuapp.com/)
+* [A-Frame](https://aframe.io)
 * [A-Frame Component Registry](https://aframe.io/aframe-registry/)
-* [mozvr.com](https://vr.mozilla.org/)
+* [vr.mozilla.org](https://vr.mozilla.org/)
 * [VR Gets Real with WebVR](https://medium.com/@rolanddubois/vr-gets-real-174fdafcad4f)
 * [WebVR API](https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API)
 * [The UX of VR](http://www.uxofvr.com/)
 
 **Get In Touch**
-
 @rolanddubois
 rolanddubois.com
 

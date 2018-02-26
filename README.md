@@ -6,7 +6,8 @@ Intro
 
 ## Meetup Log
 ### Tuesday, February 27, 2018
-[Kickoff of the A-Frame NYC Meetup](/meetup_kickoff_02-27-2018.md)
+[Kickoff of the A-Frame NYC Meetup](/presentations/meetup_kickoff_02-27-2018.pdf)
+Demos: [ThreeJS Photosphere](/demos/01_ThreeJS_photosphere.html), [A-Frame Photosphere](/demos/02_A-Frame_photosphere.html), (Watercolor Box 1)[/demos/03_A-Frame_watercolor_1.html], (Watercolor Box 2)[/demos/04_A-Frame_watercolor_2.html], (Watercolor Box 3)[/demos/05_A-Frame_watercolor_3.html], (Space Walk)[/demos/06_A-Frame_obj_space.html], (Gaze Game)[/demos/07_A-Frame_gaze.html]
 
 ## Meetup Challenges
 TBD
