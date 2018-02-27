@@ -14,6 +14,9 @@ You can find here an archive of slides, presentations and workshop materials tha
 ## Meetup Challenges
 TBD
 
+## Meetup Resources
+### Trello
+[A-Frame Components that need attention](https://trello.com/aframenycmeetup)
 
 
 ### Support or Contact
