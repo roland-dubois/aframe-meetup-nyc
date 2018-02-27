@@ -1,3 +1,14 @@
+#Agenda
+
+* Welcome to A-Frame NYC - Introduction & Definitions
+* VR Market - Current Tools and Gadgets
+* Retrospective on VR on the Web
+* WebGL & WebVR & A-Frame
+* Workshop Session
+* Close up Session
+
+---
+
 # Introduction to VR on the Web
 
 ---
@@ -69,6 +80,10 @@ Hundreds of third-party headsets
 - [Oculus Store](https://www.oculus.com/experiences/rift/)
 - [The Rift Arcade](http://www.theriftarcade.com/)
 - [V](http://www.hellov.io/) "open alternative" to SteamVR
+
+---
+
+![fit](images/webVRExamples.png)
 
 ---
 
@@ -362,21 +377,6 @@ Hardware accelerated rendering of 3D objects.
 
 ![autoplay](https://www.youtube.com/watch?v=E42mNt_vsz8)
 
----
-
-**Resources**
-* [A-Frame Slack](https://aframevr-slack.herokuapp.com/)
-* [A-Frame](https://aframe.io)
-* [A-Frame Component Registry](https://aframe.io/aframe-registry/)
-* [vr.mozilla.org](https://vr.mozilla.org/)
-* [VR Gets Real with WebVR](https://medium.com/@rolanddubois/vr-gets-real-174fdafcad4f)
-* [WebVR API](https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API)
-* [The UX of VR](http://www.uxofvr.com/)
-
-**Get In Touch**
-@rolanddubois
-rolanddubois.com
-
 --- 
 
 # *It’s code time!* Here’s what we’re building:
@@ -387,5 +387,26 @@ rolanddubois.com
 
 ![inline,fit](images/scene1.png)![inline,fit](images/scene2.png)![inline,fit](images/scene3.png)
 
+---
 
+# Close up discussion
 
+[Mozilla is hosting a new WebVR Experience Challenge](https://challenges.mozilla.community/webvr-challenge/) 
+Submissions close **April 2nd**!
+
+* Group projects
+* Challenges / Codathons
+* Deeper looks into A-Frame Components
+
+---
+
+# Resources
+
+* [A-Frame Slack](https://aframevr-slack.herokuapp.com/)
+* [A-Frame Component Registry](https://aframe.io/aframe-registry/)
+* [vr.mozilla.org](https://vr.mozilla.org/)
+* [WebVR API](https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API)
+* [The UX of VR](http://www.uxofvr.com/)
+
+**Get In Touch**
+@rolanddubois | rolanddubois.com
