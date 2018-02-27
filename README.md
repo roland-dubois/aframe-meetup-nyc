@@ -10,6 +10,7 @@ You can find here an archive of slides, presentations and workshop materials tha
 * Compare: [ThreeJS Photosphere](/demos/01_ThreeJS_photosphere.html) & [A-Frame Photosphere](/demos/02_A-Frame_photosphere.html)
 * Build: [Watercolor Box 1](/demos/03_A-Frame_watercolor_1.html), [Watercolor Box 2](/demos/04_A-Frame_watercolor_2.html), [Watercolor Box 3](/demos/05_A-Frame_watercolor_3.html)
 * Build: [Space Walk](/demos/06_A-Frame_obj_space.html), [Gaze Game](/demos/07_A-Frame_gaze.html)
+* [Glitch](https://glitch.com/edit/#!/aframe-nyc)
 
 ## Meetup Challenges
 TBD
