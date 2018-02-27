@@ -15,6 +15,8 @@ You can find here an archive of slides, presentations and workshop materials tha
 TBD
 
 ## Meetup Resources
+### Meetup 
+[A-Frame-NYC](https://www.meetup.com/A-Frame-NYC/)
 ### Trello
 [A-Frame Components that need attention](https://trello.com/aframenycmeetup)
 
