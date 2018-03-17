@@ -15,7 +15,7 @@ You can find here an archive of slides, presentations and workshop materials tha
 ### Friday, March 16, 2018
 [Recap and Overview A-Frame 101](/presentations/meetup_aframe101_03-16-2018.pdf)
 * Setup: [Gulp Tutorial](https://css-tricks.com/gulp-for-beginners/) & [Git Repo](https://github.com/zellwk/gulp-starter-csstricks)
-* Build: [Interactive Island](/demos/08_Aframe_island/app/)
+* Build: [Interactive Island](/aframe-meetup-nyc/demos/08_Aframe_island/app/)
 * Assets: [Island](https://poly.google.com/view/dQrzT31sLPE), [Trees](https://poly.google.com/view/aAIOBNEaD5M), [Lighthouse](https://poly.google.com/view/3gEvVZoTN7e), [Shark](https://poly.google.com/view/8Ke5qCnWxsZ), [Campfire](https://poly.google.com/view/0vzzmM-t8CP)
 
 
