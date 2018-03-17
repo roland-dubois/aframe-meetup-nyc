@@ -23,6 +23,7 @@ You can find here an archive of slides, presentations and workshop materials tha
 TBD
 
 ## Meetup Resources
+* Dev Starter Files: [00_A-Frame_starter](/aframe-meetup-nyc/demos/00_A-Frame_starter/)
 * Meetup: [A-Frame-NYC](https://www.meetup.com/A-Frame-NYC/)
 * Trello: [A-Frame Components that need attention](https://trello.com/aframenycmeetup)
 
