@@ -1,6 +1,6 @@
 # A-Frame Meetup NYC - Demo files 00_A-Frame_starter  
 
-[**Download the package here**](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/demos/00_A-Frame_starter/00_A-Frame_starter.zip)
+[**Download the package here**](https://rawgit.com/roland-dubois/aframe-meetup-nyc/master/demos/00_A-Frame_starter.zip)
 
 This demo is built on top of the repo from the gulp starter [CSS Tricks tutorial](https://css-tricks.com/gulp-for-beginners/). 
 
