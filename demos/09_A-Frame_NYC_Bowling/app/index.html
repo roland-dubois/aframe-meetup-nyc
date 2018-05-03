@@ -13,7 +13,7 @@
   <!--endbuild-->
 </head>
 <body>
-  <a-scene physics="debug:false; friction: 0.05; restitution: 0.001; iterations: 20">
+  <a-scene physics="debug:false; friction: 0.001; restitution: 0; iterations: 30">
 
     <a-assets>
       <!-- https://poly.google.com/view/ef9Yd09Doxh -->
@@ -81,7 +81,7 @@
     ></a-plane>
 
     <a-entity 
-      geometry="primitive:cylinder; radius:3; height:6; openEnded: true; thetaLength: 90; thetaStart: 90; segmentsRadial:72"
+      geometry="primitive:cylinder; radius:3; height:6; openEnded: true; thetaLength: 90; thetaStart: 90; segmentsRadial:288;segmentsHeight:1"
       material="color:#19a19d; side: double"
       static-body="shape:mesh"
       position="0 3 -3.85" 
