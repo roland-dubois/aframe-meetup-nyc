@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>09_A-Frame_NYC_Bowling</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+
+  <script src="//cdn.rawgit.com/donmccurdy/aframe-physics-system/v3.1.1/dist/aframe-physics-system.min.js"></script>
+
+  <!--build:css css/styles.min.css-->
+  <link rel="stylesheet" href="css/styles.css">
+  <!--endbuild-->
+</head>
+<body>
+  <a-scene physics="debug:false; friction: 0.05; restitution: 0.001; iterations: 20">
+
+    <a-assets>
+      <!-- https://poly.google.com/view/ef9Yd09Doxh -->
+      <a-asset-item id="libertystatue-obj" src="objects/libertystatue.obj"></a-asset-item>
+      <a-asset-item id="libertystatue-mtl" src="objects/libertystatue.mtl"></a-asset-item>    
+      <img id="grid" src="images/grid.png">
+
+      <a-mixin id="statue"      
+        obj-model="obj:#libertystatue-obj; mtl:#libertystatue-mtl;" 
+        dynamic-body="mass:0.15; shape:none;"
+        shape__main="shape: cylinder;
+                     height: 3;
+                     offset: 0 -0.5 0;
+                     radiusTop: 0.6;
+                     radiusBottom: 0.4;" 
+        rotation="0 -12 0"
+        shadow
+      ></a-mixin>
+    </a-assets>
+
+    <a-entity mixin="statue"     
+              position="-2 2 -13" 
+    ></a-entity>
+
+    <a-entity mixin="statue" 
+              position="2 2 -13" 
+    ></a-entity>
+
+    <a-entity mixin="statue" 
+              position="-1.25 2 -12" 
+    ></a-entity>
+
+    <a-entity mixin="statue" 
+              position="0 2 -11" 
+    ></a-entity>
+
+    <a-entity mixin="statue" 
+              position="1.25 2 -12" 
+    ></a-entity>
+
+    <a-entity bowlingball
+      geometry="primitive:sphere; radius:0.75;"
+      material="metalness:0.7; roughness:0.4; color:#ff2863;"
+      dynamic-body="mass:7.26"
+      position="4.5 0.375 0" 
+      shadow
+    ></a-entity>
+
+    <a-entity launchpad
+      geometry="primitive:plane; width:6; height:4;"
+      position="0 7.25 0" 
+    ></a-entity>
+
+    <!-- Floor -->
+    <a-plane 
+      static-body
+      position="0 0 -9.5" 
+      rotation="-90 0 0" 
+      width="6" 
+      height="12" 
+      segments-height="10"
+      segments-width="10"
+      color="#19a19d" 
+      shadow="cast: false"
+    ></a-plane>
+
+    <a-entity 
+      geometry="primitive:cylinder; radius:3; height:6; openEnded: true; thetaLength: 90; thetaStart: 90; segmentsRadial:72"
+      material="color:#19a19d; side: double"
+      static-body="shape:mesh"
+      position="0 3 -3.85" 
+      rotation="-90 -90 0" 
+      scale="1.5 1 1"      
+      shadow="cast: false"
+    ></a-entity>
+
+    <a-ring 
+      static-body="shape:mesh"
+      color="teal"
+      radius-inner="0.25" 
+      radius-outer="0.5"
+      position="4.5 0 0" 
+      rotation="-90 0 0" 
+      material=""></a-ring>
+
+    <a-sky color="#f3f3f3"></a-sky>
+
+    <a-camera look-controls="pointerLockEnabled:true;"
+      position="0 5 5"
+    >
+      <a-cursor></a-cursor>
+    </a-camera>
+
+    <a-entity light="intensity:0.25;castShadow:true" position="6 6 0"></a-entity>
+    <a-entity light="intensity:0.25;castShadow:true" position="6 6 -6"></a-entity>
+    <a-entity light="intensity:0.25;castShadow:true" position="6 6 -12"></a-entity>
+
+    <a-entity light="intensity:0.25;castShadow:true" position="-6 6 0"></a-entity>
+    <a-entity light="intensity:0.25;castShadow:true" position="-6 6 -6"></a-entity>
+    <a-entity light="intensity:0.25;castShadow:true" position="-6 6 -12"></a-entity>
+
+    <a-entity light="color:#666;type:ambient"></a-entity>
+  </a-scene>  
+  <!--build:js js/main.min.js -->
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
+</body>
+</html>

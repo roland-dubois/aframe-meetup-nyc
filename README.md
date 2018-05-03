@@ -15,14 +15,21 @@ You can find here an archive of slides, presentations and workshop materials tha
 ### Friday, March 16, 2018
 [Recap and Overview A-Frame 101](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe101_03-16-2018.pdf)
 * Setup: [Gulp Tutorial](https://css-tricks.com/gulp-for-beginners/) & [Git Repo](https://github.com/zellwk/gulp-starter-csstricks)
-* Build: [Interactive Island](/aframe-meetup-nyc/demos/08_Aframe_island/app/)
+* Build: [Interactive Island](https://roland-dubois.github.io/aframe-meetup-nyc/demos/08_A-Frame_island/app/)
 * Assets: [Island](https://poly.google.com/view/dQrzT31sLPE), [Trees](https://poly.google.com/view/aAIOBNEaD5M), [Lighthouse](https://poly.google.com/view/3gEvVZoTN7e), [Shark](https://poly.google.com/view/8Ke5qCnWxsZ), [Campfire](https://poly.google.com/view/0vzzmM-t8CP)
 
 ### Wednesday, April 18, 2018
 #### Workshop at Parsons School of Design
 Creating Components and playing with Physics
-* Build: [NYC Bowling Game](#) *coming soon...*
-* Assets: *coming soon...*
+* Build: [NYC Bowling Game](https://roland-dubois.github.io/aframe-meetup-nyc/demos/09_A-Frame_NYC_Bowling/app/)
+* Assets: [Lady Liberty](https://poly.google.com/view/ef9Yd09Doxh)
+
+### Thursday, May 05, 2018
+[Recap of the Parsons Workshop and Overview A-Frame 102](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe102_05-03-2018.pdf)
+* Setup: [Gulp Tutorial](https://css-tricks.com/gulp-for-beginners/) & [Git Repo](https://github.com/zellwk/gulp-starter-csstricks)
+* Build: [NYC Bowling Game](https://roland-dubois.github.io/aframe-meetup-nyc/demos/09_A-Frame_NYC_Bowling/app/)
+* Assets: [Lady Liberty](https://poly.google.com/view/ef9Yd09Doxh)
+* Additional Resource: [Similar Physics VR Project on hacks.mozilla](https://hacks.mozilla.org/2017/05/having-fun-with-physics-and-a-frame/)
 
 ## Meetup Challenges
 TBD
@@ -32,5 +39,5 @@ TBD
 * Meetup: [A-Frame-NYC](https://www.meetup.com/A-Frame-NYC/)
 * Trello: [A-Frame Components that need attention](https://trello.com/aframenycmeetup)
 
-### Support or Contact
+### Support & Contact
 Having trouble with links or assets? [contact me](https://rolanddubois.com) and I’ll help you sort it out.

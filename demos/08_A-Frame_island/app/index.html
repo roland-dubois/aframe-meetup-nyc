@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>08_Aframe_island</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
+  <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>  
+  <script src="https://poc.virtuleap.com/library/gar-calculator-aframe.v1.0.min.js"></script>
+  
+  <!--build:css css/styles.min.css-->
+  <link rel="stylesheet" href="css/styles.css">
+  <!--endbuild-->
+</head>
+<body>
+  <a-scene>
+    <a-assets>
+      <img id="sky" src="images/sky.jpg">
+      <a-asset-item id="island-obj" src="objects/island.obj"></a-asset-item>
+      <a-asset-item id="island-mtl" src="objects/island.mtl"></a-asset-item>
+      <a-asset-item id="trees-obj" src="objects/trees.obj"></a-asset-item>
+      <a-asset-item id="trees-mtl" src="objects/trees.mtl"></a-asset-item>
+      <a-asset-item id="water_lighthouse-obj" src="objects/water_lighthouse.obj"></a-asset-item>
+      <a-asset-item id="water_lighthouse-mtl" src="objects/water_lighthouse.mtl"></a-asset-item>
+      <a-asset-item id="shark-obj" src="objects/shark.obj"></a-asset-item>
+      <a-asset-item id="shark-mtl" src="objects/shark.mtl"></a-asset-item> 
+      <a-asset-item id="campfire-obj" src="objects/campfire.obj"></a-asset-item>
+      <a-asset-item id="campfire-mtl" src="objects/campfire.mtl"></a-asset-item> 
+      <a-mixin id="ground" 
+        geometry="primitive:box; width:1;depth:1;height:0.01"
+        material="color:white; opacity:0"
+      ></a-mixin>      
+    </a-assets>
+    
+    <a-sky src="#sky"></a-sky>
+    <a-ocean color="#3b587e" width="150" depth="150" density="25" speed="5" position="0 -2 0"></a-ocean>
+
+    <a-light type="directional" color="#ffa376" position="-2 2 0"></a-light>
+    <a-light type="ambient" color="#183656"></a-light>
+    
+    <!-- Island and Trees -->
+    <a-obj-model src="#island-obj" mtl="#island-mtl" 
+      scale="10 10 10" 
+      position="0 -3 0"
+      shadow
+    ></a-obj-model>
+    <a-obj-model src="#trees-obj" mtl="#trees-mtl" 
+      scale="0.1 0.1 0.1" 
+      position="-2.917 -0.259 -7.322" rotation="0 90 -5.5"
+      shadow
+    ></a-obj-model>
+    <a-obj-model src="#trees-obj" mtl="#trees-mtl" 
+      scale="-0.08 0.08 0.08" 
+      position="1.646 0.815 3.259" rotation="-4.05 30 3"
+      shadow
+    ></a-obj-model>
+    <!-- Island and Trees end -->
+
+    <!-- Lighthouse -->
+    <a-obj-model src="#water_lighthouse-obj" mtl="#water_lighthouse-mtl" 
+      scale="0.025 0.025 0.025" 
+      position="-0.936 -1.655 -1.417"
+    ></a-obj-model>
+    
+    <a-entity position="-0.957 8 -1.433">
+      <a-entity 
+        light="type:spot;decay:0;angle:30;intensity:3;penumbra:0.5;shadowCameraNear:0.25;color:#fff"
+        rotation="0 0 0"
+      ></a-entity>
+      <a-entity 
+        light="type:spot;decay:0;angle:30;intensity:3;penumbra:0.5;shadowCameraNear:0.25;color:#fff" 
+        rotation="180 0 0"
+      ></a-entity>
+      <a-cylinder color="#fff" position="0.028 0 0.025" height="1.375" radius="0.25" rotation="90 0 0" material="shader:flat">
+      </a-cylinder>
+      <a-animation attribute="rotation" to="0 -360 0" dur="10000"
+      repeat="indefinite" easing="linear"></a-animation>
+    </a-entity>
+    <!-- Lighthouse end -->
+
+    <!-- Campfire -->
+    <a-obj-model src="#campfire-obj" mtl="#campfire-mtl" 
+      scale="0.25 0.25 0.25" 
+      position="2.46 1.05 3.1"
+      gar-calculator-element="modelID:9ED0-322832;experience_id:CA98-69156D;"
+    ></a-obj-model>
+    <a-entity 
+      position="2.58 1.234 3.243" 
+      light="type:point; color:#f09f00;intensity:1.5;distance:1.5;groundColor:#ffffff;castShadow:true;"
+    ></a-entity>
+    <!-- Campfire end -->
+    
+    <!-- Sharks -->
+    <a-entity position="0 -3 0">
+      <a-obj-model src="#shark-obj" mtl="#shark-mtl" scale="0.75 0.75 0.75" position="0 0.5 17.5" rotation="0 90 0" material="" obj-model=""
+      gar-calculator-element="modelID:BD6B-50292F;experience_id:CA98-69156D;"
+      ></a-obj-model>
+      <a-obj-model src="#shark-obj" mtl="#shark-mtl" scale="0.75 0.75 0.75" position="0 0.25 -17.5" rotation="0 -90 0" material="" obj-model=""
+      gar-calculator-element="modelID:BD6B-50292F;experience_id:CA98-69156D;"
+      ></a-obj-model>
+      <a-animation attribute="rotation" to="0 360 0" dur="15000"
+      repeat="indefinite" easing="linear"></a-animation>
+    </a-entity>
+    <!-- Sharks end-->
+
+    <!-- Teleport component -->
+    <a-entity id="cameraRig" position="-1.4 1.2 4.45">
+      <a-camera id="head" position="0 0 0" look-controls="pointerLockEnabled:true">
+        <a-entity position="0.1 -0.1 0"
+          teleport-extras
+          teleport-controls=
+            "cameraRig: #cameraRig;
+             teleportOrigin: #head;
+             startEvents:startteleport;
+             endEvents:endteleport;
+             curveShootingSpeed:15;
+             hitCylinderRadius:0.25;
+             collisionEntities: [telesurface]"
+          >
+        </a-camera>
+      </a-entity>
+    </a-entity>   
+
+    <a-entity 
+      telesurface 
+      mixin="ground" 
+      geometry="width:3;depth:2.5" 
+      position="-3 -0.559 -10.9" 
+      rotation="-12.79 -4.38 0"
+      >
+    </a-entity>
+    <a-entity 
+      telesurface 
+      mixin="ground" 
+      geometry="width:3.5;depth:2.5" 
+      position="-5.66 -0.7676616693048646 -11.06" 
+      rotation="-14 0 7.9"
+      >
+    </a-entity>
+    <a-entity 
+      telesurface 
+      mixin="ground" 
+      geometry="width:1.75;depth:6" 
+      position="-6.17 -0.3100858210294848 -6.95"
+      rotation="-3 2 2"
+      >
+    </a-entity>
+    <a-entity 
+      telesurface 
+      mixin="ground" 
+      geometry="width:3.5;depth:1.75" 
+      position="-4.74 -0.07120788453936067 -3.47"
+      rotation="0 0 0"
+      >
+    </a-entity>
+    <a-entity 
+      telesurface 
+      mixin="ground" 
+      geometry="width:4.5;depth:5" 
+      position="-5.1 0.0848676949318321 -0.18" 
+      rotation="-3.15 0 0"
+      >
+    </a-entity>
+    <a-entity 
+      telesurface 
+      mixin="ground" 
+      geometry="width:3;depth:3" 
+      position="-4.14 0.5617673673621013 3.75"
+      rotation="-1.67 -11.93 0"
+      >
+    </a-entity>
+    <a-entity 
+      telesurface 
+      mixin="ground" 
+      geometry="width:3;depth:4" 
+      position="-1.1 0.7582441657239807 4.82"
+      rotation="-3 70 0"
+      >
+    </a-entity>
+    <a-entity 
+      telesurface 
+      mixin="ground" 
+      geometry="width:5;depth:4" 
+      position="2.85 0.9427141151672305 5.3"
+      rotation="0 65 0"
+      >
+    </a-entity>
+    <a-entity 
+      telesurface 
+      mixin="ground" 
+      geometry="width:3;depth:4" 
+      position="5.5 1.0503621187620769 7"
+      rotation="0 0 0"
+      >
+    </a-entity>
+    <!-- Teleport component end-->
+
+
+
+  </a-scene>  
+  <!--build:js js/main.min.js -->
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
