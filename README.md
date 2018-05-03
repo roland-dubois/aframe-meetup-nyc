@@ -7,9 +7,9 @@ You can find here an archive of slides, presentations and workshop materials tha
 ## Event Log
 ### Tuesday, February 27, 2018
 
-<img src="images/AFrameDemo05.jpg" alt="Cubes" style="width: 30%; display: inline-block;"/>
-<img src="images/AFrameDemo06.jpg" alt="Spacewalk" style="width: 30%; display: inline-block;"/>
-<img src="images/AFrameDemo07.jpg" alt="Gaze Ball Game" style="width: 30%; display: inline-block;"/>
+<img src="images/AFrameDemo05.jpg" alt="Cubes" style="width: 30%; display: inline-block;box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+<img src="images/AFrameDemo06.jpg" alt="Spacewalk" style="width: 30%; display: inline-block;box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+<img src="images/AFrameDemo07.jpg" alt="Gaze Ball Game" style="width: 30%; display: inline-block;box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 [Kickoff of the A-Frame NYC Meetup](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_kickoff_02-27-2018.pdf) 
 * Compare: [ThreeJS Photosphere](https://roland-dubois.github.io/aframe-meetup-nyc/demos/01_ThreeJS_photosphere.html) & [A-Frame Photosphere](https://roland-dubois.github.io/aframe-meetup-nyc/demos/02_A-Frame_photosphere.html)
@@ -22,7 +22,7 @@ You can find here an archive of slides, presentations and workshop materials tha
 
 ### Friday, March 16, 2018
 
-<img src="images/AFrameDemo08.jpg" alt="Island" style="width: 90%;"/>
+<img src="images/AFrameDemo08.jpg" alt="Island" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 [Recap and Overview A-Frame 101](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe101_03-16-2018.pdf)
 * Setup: [Gulp Tutorial](https://css-tricks.com/gulp-for-beginners/) & [Git Repo](https://github.com/zellwk/gulp-starter-csstricks)
@@ -37,7 +37,7 @@ Creating Components and playing with Physics
 
 ### Thursday, May 05, 2018
 
-<img src="images/AFrameDemo09.jpg" alt="Bowling" style="width: 90%;"/>
+<img src="images/AFrameDemo09.jpg" alt="Bowling" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 [Recap of the Parsons Workshop and Overview A-Frame 102](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe102_05-03-2018.pdf)
 * Setup: [Gulp Tutorial](https://css-tricks.com/gulp-for-beginners/) & [Git Repo](https://github.com/zellwk/gulp-starter-csstricks)
