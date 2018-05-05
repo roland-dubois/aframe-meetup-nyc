@@ -1,11 +1,8 @@
 AFRAME.registerComponent('launchpad', {
     init: function () {
-        var _this = this;
-        var data = this.data;
         var el = this.el;
         var thisY = el.object3D.position.y;
-	    var ball = document.querySelector('[bowlingball]');
-		var newPos;
+        var ball = document.querySelector('[bowlingball]');
 
         el.setAttribute('material', 'transparent:true; opacity:0.5; src:#grid; repeat:12 8;'); 
 
@@ -17,16 +14,15 @@ AFRAME.registerComponent('launchpad', {
         el.appendChild(ballPos);
         this.ballPos = ballPos;
 
-        var score = document.createElement("a-entity");
-        score.setAttribute('geometry', 'primitive: plane; width: 6; height: 1;');
-        score.setAttribute('material', 'shader: flat; opacity: 1; color: #ff2863');
-        score.setAttribute('rotation', '0 0 0');
-        score.setAttribute('position', '0 2.75 0');
-        score.setAttribute('text', 'value', 'Click anywhere on the grid to launch the Bowling Ball');
-        score.setAttribute('text', 'align', 'center');
-        score.setAttribute('text', 'wrapCount', '30');
-        this.el.appendChild(score);
-        this.score = score;
+        var label = document.createElement("a-entity");
+        label.setAttribute('geometry', 'primitive: plane; width: 6; height: 1;');
+        label.setAttribute('material', 'shader: flat; opacity: 1; color: #ff2863');
+        label.setAttribute('rotation', '0 0 0');
+        label.setAttribute('position', '0 2.75 0');
+        label.setAttribute('text', 'value', 'Click anywhere on the grid to launch the Bowling Ball');
+        label.setAttribute('text', 'align', 'center');
+        label.setAttribute('text', 'wrapCount', '30');
+        this.el.appendChild(label);
 
       	el.addEventListener('mouseenter', function () {
         	el.setAttribute('material', 'opacity:0.3;'); 
