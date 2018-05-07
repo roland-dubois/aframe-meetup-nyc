@@ -1,4 +1,6 @@
 AFRAME.registerComponent('launchpad', {
+    dependencies: ['raycaster'],
+
     init: function () {
         var el = this.el;
         var thisY = el.object3D.position.y;
@@ -42,9 +44,13 @@ AFRAME.registerComponent('launchpad', {
             ball.body.quaternion.set(0, 0, 0, 1);
             ball.body.position.set(nPos.x, nPos.y, nPos.z);
 			console.log(nPos.x +","+ nPos.y+","+ nPos.z);
-
 		});
     },
+    tick: function () {
+        var newPos = this.el.components.raycaster.intersections[0].point;
+        //console.log(newPos);
+//        this.el.components.raycaster.refreshObjects();
+    }
 });
 
 

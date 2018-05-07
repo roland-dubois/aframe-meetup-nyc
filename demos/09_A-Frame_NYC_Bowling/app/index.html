@@ -101,12 +101,12 @@
 
     <a-sky color="#f3f3f3"></a-sky>
 
-    <a-camera look-controls="pointerLockEnabled:true;"
-      position="0 5 5"
-    >
-      <a-cursor raycaster="interval: 200"></a-cursor>
-    </a-camera>
-
+    <a-entity id="camera-rig" position="0 5 5">
+      <a-camera look-controls="pointerLockEnabled:true;">
+        <a-cursor raycaster="interval: 200; objects:[launchpad]"></a-cursor>
+      </a-camera>
+    </a-entity>
+    
     <a-entity light="intensity:0.25;castShadow:true" position="6 6 0"></a-entity>
     <a-entity light="intensity:0.25;castShadow:true" position="6 6 -6"></a-entity>
     <a-entity light="intensity:0.25;castShadow:true" position="6 6 -12"></a-entity>
