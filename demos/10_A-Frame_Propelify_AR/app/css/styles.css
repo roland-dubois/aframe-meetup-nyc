@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box; 
+}
+
+body {
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow: hidden; }
+
+.a-canvas{
+  box-shadow: inset 0px 0px 0px 5px #000;
+}
