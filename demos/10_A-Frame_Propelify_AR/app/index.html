@@ -17,32 +17,23 @@
 
 <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
-
         <a-assets>
             <a-asset-item id="logo" src="assets/propelify-logo.gltf"></a-asset-item>
         </a-assets>
-<!-- 
-        <a-anchor preset="custom" type="pattern" url="propelify.patt" hit-testing-enabled='false'>
-            <a-entity scale="3.5 3.5 3.5" obj-model="obj: #logo-obj;" material="color:#eb9c2c; shading:flat;">
-            </a-entity>
-        </a-anchor>
- -->
 
-        <a-anchor preset="hiro" hit-testing-enabled='false'>
+        <a-anchor preset="custom" type="pattern" url="propelify.patt" hit-testing-enabled='false'>
             <a-entity 
                 arjs-portal-door="url:assets/sky.png; doorWidth:1; doorHeight:1;"
                 position='0 0 0.5' 
                 scale='1 1 1' 
                 rotation='-90 0 0' 
-            >
-                    
+            >                    
                 <a-entity animation-container
                     rotation="0 0 0"
                     position="0 0.5 -0.5"
                 >
                     <a-sphere scale="0.15 0.15 0.15" position="0 0 2" shadow="cast: true"></a-sphere>
                 </a-entity>
-
             <a-entity>
 
              <a-entity shadow-container
