@@ -7,11 +7,14 @@
     <meta name="description" content="">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script> 
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+ 
 <!-- <script src='js/aframe-portal-door.js'></script> -->
     <script src='js/threex-portal-door.js'></script>    
 <!-- <script src="js/ensure-https.js"></script> -->    
     <script src="js/script.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -19,9 +22,13 @@
     <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
         <a-assets>
             <a-asset-item id="logo" src="assets/propelify-logo.gltf"></a-asset-item>
+            <img id="head" src="assets/head.png" />
+            <img id="aframe" src="assets/aframe.png" />
+            <img id="immersive" src="assets/immersive.png" />
         </a-assets>
 
         <a-anchor preset="custom" type="pattern" url="propelify.patt" hit-testing-enabled='false'>
+            <!-- Tron portal -->
             <a-entity 
                 arjs-portal-door="url:assets/sky.png; doorWidth:1; doorHeight:1;"
                 position='0 0 0.5' 
@@ -32,11 +39,109 @@
                     rotation="0 0 0"
                     position="0 0.5 -0.5"
                 >
-                    <a-sphere scale="0.15 0.15 0.15" position="0 0 2" shadow="cast: true"></a-sphere>
+                    <!-- ship -->
+                    <a-entity id="ship" scale="0.25 0.25 0.25" position="0 0 2" hoverable>
+                        <!-- ship body -->            
+                        <a-sphere 
+                            position="0 0 0" 
+                            radius="0.5" 
+                            color="#EF2D5E"
+                            scale="1 0.2 1"
+                            shadow="cast: true;"
+                        ></a-sphere>
+                        <a-sphere position="0.375 0.05 0" radius="0.075" color="#EF2D5E"></a-sphere>         
+                        <a-sphere position="-0.375 0.05 0" radius="0.075" color="#EF2D5E"></a-sphere>         
+                        <a-sphere position="0 0.05 0.375" radius="0.075" color="#EF2D5E"></a-sphere>         
+                        <a-sphere position="0 0.05 -0.375" radius="0.075" color="#EF2D5E"></a-sphere> 
+                        <a-cylinder position="0 0.11 0" radius="0.28" height="0.02" color="#fff"></a-cylinder>
+                        <a-cylinder position="0 0 0" radius="0.325" height="0.2" color="#4CC3D9"></a-cylinder>
+
+                        <!-- alien -->            
+                        <a-sphere position="0 0.34 0" rotation="0 -90 0" radius="0.15" scale="1 1.15 1" material="src:#head"></a-sphere> 
+                        <a-sphere position="0 0.095 0" rotation="0 -90 0" radius="0.15" scale="1 0.5 1" color="#667776"></a-sphere> 
+                        
+                        <!-- glasstop -->           
+                        <a-sphere 
+                            geometry="phiLength:180;phiStart:180"
+                            position="0 0.23 0" 
+                            radius="0.3" 
+                            color="#fff"
+                            scale="1 1.1 1"
+                            material="opacity:0.5; side:double; roughness:0.1; metalness:0.9; emissive:#D9F9FF;"
+                            shadow="cast: true; receive:false;"                            
+                        ></a-sphere>
+                        <a-ring 
+                            position="0 0.23 0" 
+                            radius="0.3" 
+                            radius-inner="0.29" radius-outer="0.3"
+                            color="#fff"
+                            scale="1 1.1 1"                
+                        ></a-ring>
+
+                        <!-- seat -->            
+                        <a-sphere 
+                            geometry="phiLength:200;phiStart:240" 
+                            position="0 0.2 0" 
+                            rotation="0 0 90" 
+                            radius="0.24" 
+                            color="#4CC3D9" 
+                            scale="1 1.1 1" 
+                            material="side:double"
+                        ></a-sphere>
+
+                        <!-- propeller bottom -->            
+                        <a-cylinder position="0 -0.2 0" radius="0.02" height="0.25" color="#4CC3D9"></a-cylinder>
+                        <a-cone position="0 -0.14 0" radius-bottom="0.2" radius-top="0.25" height="0.08" color="#4CC3D9" shadow="cast: true;"></a-cone>
+
+                        <a-sphere position="0 -0.35 0" radius="0.05" color="#4CC3D9">
+                            <a-cylinder position="0.175 0 0" radius="0.15" height="0.01" color="#4CC3D9" scale="1 1 0.3" shadow="cast: true;"></a-cylinder>
+                            <a-cylinder position="-0.175 0 0" radius="0.15" height="0.01" color="#4CC3D9" scale="1 1 0.3" shadow="cast: true;"></a-cylinder>
+                            <a-animation attribute="rotation"
+                                dur="500"
+                                fill="forwards"
+                                easing="linear"
+                                to="0 360 0"
+                                repeat="indefinite"></a-animation>                
+                        </a-sphere>  
+
+                        <!-- arms -->            
+                        <a-torus color="#4CC3D9" arc="90" radius="0.3" radius-tubular="0.02" position="0.55 0.03 0.25" rotation="110 -34 200" shadow="cast: true;"></a-torus>
+                        <a-sphere position="0.8 0.113 0.113" radius="0.06" color="#4CC3D9" rotation="30 0 0">
+                            <a-torus position="0.1 0 0.1" rotation="0 -45 0" color="#4CC3D9" arc="360" radius="0.1" radius-tubular="0.03" segments-radial="5" segments-tubular="5" material="flatShading:true" shadow="cast: true;"></a-torus>
+                        </a-sphere>
+
+                        <a-torus color="#4CC3D9" arc="90" radius="0.3" radius-tubular="0.02" position="-0.55 -0.035 0.23" rotation="0 55 0" shadow="cast: true;"></a-torus>
+                        <a-sphere position="-0.569 0.257 0.248" radius="0.06" color="#4CC3D9">
+                            <a-torus position="-0.12 0 0.11" rotation="90 8 0" color="#4CC3D9" arc="360" radius="0.1" radius-tubular="0.03" segments-radial="5" segments-tubular="5" material="flatShading:true" shadow="cast: true;"></a-torus>
+                            <a-cone position="-0.12 0.1 0.1" radius-bottom="0.05" radius-top="0.095" height="0.45" color="#EF2D5E" shadow="cast: true;receive:false;">
+                                <a-sphere id="bulb"
+                                    light="type: point; color:#D9F9FF; intensity: 0.75; distance: 3; decay: 3;"
+                                    radius="0.085"
+                                    material="shader:flat;"
+                                    position="0 0.25 0"
+                                >
+                                    <a-cylinder id="logo1" src="#aframe" height="0.05" radius="0.05" theta-length="90" theta-start="180" rotation="0 0 0" position="0 0 0" material="side:double;" open-ended="true"></a-cylinder>
+                                    <a-cylinder id="logo2" src="#immersive" height="0.05" radius="0.05" theta-length="90" theta-start="0" rotation="0 0 0" position="0 0 0" material="side:double;" open-ended="true"></a-cylinder>                
+
+                                    <a-animation attribute="rotation"
+                                    dur="3000"
+                                    fill="forwards"
+                                    easing="linear"
+                                    to="0 360 0"
+                                    repeat="indefinite"></a-animation>                      
+                                </a-sphere>
+                            </a-cone>
+                        </a-sphere>
+
+                        <a-animation attribute="rotation" to="0 3 3" direction="alternate" dur="2000" repeat="indefinite"></a-animation>
+                        <a-animation attribute="position" from="0 0 2" to="0 0 -0.15" dur="1000" delay="7500" direction="alternate" easing="ease-in-out-expo" repeat="indefinite"></a-animation>
+                    </a-entity>
+                    <!-- ship end -->                    
                 </a-entity>
             <a-entity>
 
-             <a-entity shadow-container
+            <!-- shadow container -->
+             <a-entity
                 position='0 0.5 0.01' 
                 scale='1 1 1' 
                 rotation='90 0 0' 
@@ -47,22 +152,22 @@
                 <a-plane shadow-material material="shader:flat;" position="0 0 -1.35" height="1.7" width="2.6" rotation="-90 0 0" shadow="receive: true"></a-plane>
             <a-entity> 
             
+            <!-- Propelify logo -->
             <a-gltf-model src="#logo"
-                position="-0.705 0 -0.94"
-                scale="0.138 0.135 0.135"
+                position="0 0 -0.65"
+                scale="0.25 0.25 0.25"
+                shadow="cast:true"
             ></a-gltf-model>
-
-            <!-- for positioning -->
-            <!-- <a-plane width="1" height="1.333" material="shader:flat; src:res/Poster.png" position='0 0 -0.4' rotation="-90 0 0" scale="2.6 2.6 2.6"></a-plane>  -->
-
+            <!-- Propelify logo -->
         </a-anchor>
-        <!-- begin camera -->            
 
+        <!-- begin camera & lights -->            
         <a-entity 
-            light="type: directional; castShadow:true; intensity:0.7;" 
+            light="type: directional; color: #FFF; castShadow:true; intensity:0.6;" 
             position="-0.25 1 1.5"
         ></a-entity>        
-        
+        <a-entity light="type: ambient; color: #888"></a-entity>
+
         <a-entity camera>
             <!-- begin cursor -->
             <a-entity cursor="fuse: false;" crosshair position="0 0 -1"></a-entity>
@@ -72,11 +177,7 @@
 
     </a-scene>
 
-    <!-- Messaging info text when hover pin -->
-    <div id="infobox">
-        <h1 id="infotitle"></h1>
-        <p id="infodescription"></p>
+    <div id="links"><p><em>Let's build the Metaverse!</em> Signup for <a href="https://www.meetup.com/Immersive-NYC" target="_blank">IMMERSIVE NYC</a> & <a href="https://www.meetup.com/A-Frame-NYC" target="_blank">A-FRAME NYC</a></p>
     </div>
-
 </body>
 </html>
