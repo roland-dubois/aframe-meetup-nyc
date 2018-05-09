@@ -29,6 +29,11 @@ em {
 	display: inline-block;
   }
 
+span{
+	white-space: nowrap;
+	display: inline-block;	
+}
+
 a {
   color: #fff;
   text-decoration: none; }
