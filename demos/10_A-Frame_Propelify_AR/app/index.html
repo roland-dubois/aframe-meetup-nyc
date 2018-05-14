@@ -6,9 +6,10 @@
     <title>10_A-Frame_Propelify_AR</title>
     <meta name="description" content="">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
     <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
- 
+    <script src="https://poc.virtuleap.com/library/gar-calculator-aframe.min.js"></script> 
+
 <!-- <script src='js/aframe-portal-door.js'></script> -->
     <script src='js/threex-portal-door.js'></script>    
 <!-- <script src="js/ensure-https.js"></script> -->    
@@ -40,7 +41,10 @@
                     position="0 0.5 -0.5"
                 >
                     <!-- ship -->
-                    <a-entity id="ship" scale="0.25 0.25 0.25" position="0 0 2" hoverable>
+
+                    <a-entity id="ship" 
+                    gar-calculator-element="modelID:B6B7-9F67E9;experience_id:7322-EC24A9;"
+                    scale="0.25 0.25 0.25" position="0 0 2" hoverable>
                         <!-- ship body -->            
                         <a-sphere 
                             position="0 0 0" 
