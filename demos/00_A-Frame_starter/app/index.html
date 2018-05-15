@@ -36,8 +36,10 @@
     <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#19a19d" shadow></a-plane>
     <a-sky color="#f3f3f3"></a-sky>
 
-    <a-entity position="0 1.6 0" camera look-controls>
-      <a-cursor></a-cursor>
+    <a-entity id="cameraRig" position="0 1.6 0">
+      <a-camera look-controls> <!-- look-controls="pointerLockEnabled:true" -->
+        <a-cursor></a-cursor>
+      </a-camera>
     </a-entity>
 
   </a-scene>  
