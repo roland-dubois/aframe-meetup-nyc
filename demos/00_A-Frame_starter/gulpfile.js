@@ -17,7 +17,9 @@ var runSequence = require('run-sequence');
 gulp.task('browserSync', function() {
   browserSync({
     server: {
-      baseDir: 'app'
+      baseDir: 'app',
+      proxy: 'https://localhost:3000',
+      https: true 
     }
   })
 })
