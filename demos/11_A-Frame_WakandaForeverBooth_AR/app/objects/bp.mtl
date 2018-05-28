@@ -1,0 +1,32 @@
+# Blender MTL File: 'blackpanther.blend'
+# Material Count: 2
+
+newmtl blackpanther_mat
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.010000 0.010000 0.010000
+Ke 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DIFFUSE.png
+disp HEIGHT.png
+map_Bump NORMAL.png
+map_Ka AMBIENTOCCLUSSION.png
+map_Ks ROUGHNESS.png
+
+newmtl blackpanther_mat_NONE
+Ns 94.117647
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.010000 0.010000 0.010000
+Ke 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
+disp HEIGHT.png
+map_Bump NORMAL.png
+map_Ka AMBIENTOCCLUSSION.png
+map_Kd DIFFUSE.png
+map_Ks ROUGHNESS.png
