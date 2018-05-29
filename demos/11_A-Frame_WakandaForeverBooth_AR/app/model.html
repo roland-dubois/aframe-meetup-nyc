@@ -6,9 +6,6 @@
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
-  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script><!--   -->  
-  <script src="https://poc.virtuleap.com/library/gar-calculator-aframe.v1.0.min.js"></script> 
-
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>     
 
@@ -17,16 +14,16 @@
   <!--endbuild-->
 </head>
 <body>
-  <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
+  <a-scene>
     <a-assets>
       <!-- https://www.cgtrader.com/3d-models/character/man/black-panther-mcu#tab-description -->
       <a-asset-item id="blackpanther-obj" src="objects/bp.obj"></a-asset-item>
       <a-asset-item id="blackpanther-mtl" src="objects/bp.mtl"></a-asset-item>      
     </a-assets>
 
-    <a-anchor preset="custom" type="pattern" url="wakanda-marker.patt" hit-testing-enabled='false'>
+    <a-entity>
 
-      <a-plane rotation="-90 0 0" color="blue"></a-plane>
+      <a-plane rotation="-90 0 0" width="1" height="1" color="blue" position='0 0 0' scale='1 1 1'></a-plane>
 
       <a-entity rotation="-90 0 0" scale="5 5 5" position="0 1.25 6">
         <a-obj-model src="#blackpanther-obj" mtl="#blackpanther-mtl" 
@@ -36,14 +33,15 @@
         <a-plane position="0 1.2 -0.25" rotation="0 0 0" width="0.2" height="0.2" color="red"></a-plane>
       </a-entity>
 
-    </a-anchor>
+    </a-entity>
 
     <a-entity light="type:directional" position="-0.3 4.7 -1.5"></a-entity>
     <a-entity light="color:#BBB;type:ambient" position="0 0 0"></a-entity>
+    <a-sky color="#f3f3f3"></a-sky>
 
-    <a-entity position="0 1.6 0">
-      <a-camera look-controls wasd-controls></a-camera>
-    </a-entity>
+     <a-entity position="0 1.6 0">
+        <a-camera look-controls wasd-controls></a-camera>
+     </a-entity>
 
   </a-scene>  
   <!--build:js js/main.min.js -->
