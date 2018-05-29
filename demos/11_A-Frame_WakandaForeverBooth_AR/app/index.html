@@ -5,7 +5,7 @@
   <title>11_A-Frame_WakandaForeverBooth_AR</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+  <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
   <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
 
   <!--build:css css/styles.min.css-->
@@ -20,7 +20,7 @@
       <a-asset-item id="blackpanther-mtl" src="objects/bp.mtl"></a-asset-item>      
     </a-assets>
 
-    <a-anchor preset="custom" type="pattern" url="wakanda-marker.patt" hit-testing-enabled='false'>
+    <a-marker-camera preset="custom" type="pattern" url="wakanda-marker.patt" hit-testing-enabled='false'>
 
       <a-plane
         position='0 0 0' 
@@ -31,14 +31,14 @@
         <a-plane
         height="2"
         width="0.25"
-        color="green"
+        color="red"
         scale="1 2.5 1"
         position='0 -0.5 0'
         ></a-plane>
         <a-plane
         height="1"
         width="0.25"
-        color="white"
+        color="blue"
         scale="1 2.5 1"
         position='0.25 -1.75 0'
         ></a-plane>        
@@ -54,11 +54,10 @@
         
       </a-plane>
 
-    </a-anchor>
+    </a-marker-camera?
 
     <a-entity light="type:directional" position="-0.3 4.7 -1.5"></a-entity>
     <a-entity light="color:#BBB;type:ambient" position="0 0 0"></a-entity>
-    <a-entity camera></a-entity>
 
   </a-scene>  
   <!--build:js js/main.min.js -->
