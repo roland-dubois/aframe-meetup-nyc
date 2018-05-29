@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <!--endbuild-->
 </head>
-<body>
+<body style="margin : 0px; overflow: hidden;">
   <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
     <a-assets>
       <!-- https://www.cgtrader.com/3d-models/character/man/black-panther-mcu#tab-description -->
@@ -22,6 +22,12 @@
 
     <a-anchor preset="custom" type="pattern" url="wakanda-marker.patt" hit-testing-enabled='false'>
 
+    <a-plane
+      position='0 0 0.5' 
+      scale='1 1 1' 
+      rotation='-90 0 0'
+      color="blue" 
+    >
       <a-entity geometry="primitive:box;" material="color:red;wireframe:true" position="0 0 0">
         <!-- <a-entity rotation="-90 0 0" scale="2.5 2.5 2.5" position="0 0.125 3">
           <a-obj-model src="#blackpanther-obj" mtl="#blackpanther-mtl" 
@@ -31,6 +37,8 @@
           <a-plane position="0 1.2 -0.25" rotation="0 0 0" width="0.4" height="0.4" color="red"></a-plane>
         </a-entity> -->
       </a-entity>
+      
+    </a-plane>
 
     </a-anchor>
 
