@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>00_A-Frame_WakandaForeverBooth_AR</title>
+  <title>11_A-Frame_WakandaForeverBooth_AR</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
@@ -18,19 +18,37 @@
       <a-asset-item id="blackpanther-mtl" src="objects/bp.mtl"></a-asset-item>      
     </a-assets>
 
-    <a-entity>
-
-      <a-entity geometry="primitive:box;" material="color:green;wireframe:true" position="0 0.5 0">
-        <a-entity rotation="-90 0 0" scale="2.5 2.5 2.5" position="0 0.125 3">
-          <a-obj-model src="#blackpanther-obj" mtl="#blackpanther-mtl" 
-             scale="0.8 0.8 0.8"
-          ></a-obj-model>
-          <a-box height="2" width="0.5" depth="0.5" position="0 1 0" opacity="0.3"></a-box>
-          <a-plane position="0 1.2 -0.25" rotation="0 0 0" width="0.4" height="0.4" color="red"></a-plane>
+      <a-plane
+        position='0 0 0' 
+        scale='1 1 1' 
+        rotation='-90 0 0'
+        color="red" 
+      >
+        <a-plane
+        height="2"
+        width="0.25"
+        color="blue"
+        scale="1 2.5 1"
+        position='0 -0.5 0'
+        ></a-plane>
+        <a-plane
+        height="1"
+        width="0.25"
+        color="yellow"
+        scale="1 2.5 1"
+        position='0.25 -1.75 0'
+        ></a-plane>        
+        <a-entity geometry="primitive:box;" material="color:blue;wireframe:true" position="0 0 0.5">
+           <a-entity rotation="0 0 0" scale="2.5 2.5 2.5" position="0 -3 0.125">
+            <a-obj-model src="#blackpanther-obj" mtl="#blackpanther-mtl" 
+               scale="0.8 0.8 0.8"
+            ></a-obj-model>
+            <a-box height="2" width="0.5" depth="0.5" position="0 1 0" wireframe="true" color="green"></a-box>
+            <a-plane position="0 1.2 -0.25" rotation="0 0 0" width="0.4" height="0.4" color="purple"></a-plane>
+          </a-entity>
         </a-entity>
-      </a-entity>
-
-    </a-entity>
+        
+      </a-plane>
 
     <a-entity light="type:directional" position="-0.3 4.7 -1.5"></a-entity>
     <a-entity light="color:#BBB;type:ambient" position="0 0 0"></a-entity>
