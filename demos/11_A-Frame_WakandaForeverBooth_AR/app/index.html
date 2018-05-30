@@ -3,9 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <title>11_A-Frame_WakandaForeverBooth_AR</title>
+
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
-
+  <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="images/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,600" rel="stylesheet">
   <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
@@ -21,52 +38,37 @@
       <!-- https://www.cgtrader.com/3d-models/character/man/black-panther-mcu#tab-description -->
       <a-asset-item id="blackpanther-obj" src="objects/bp.obj"></a-asset-item>
       <a-asset-item id="blackpanther-mtl" src="objects/bp.mtl"></a-asset-item>      
+      <img id="flag" src="images/flag.jpg">
+
     </a-assets>
 
     <a-marker preset="custom" type="pattern" url="wakanda-marker.patt" hit-testing-enabled='false'>
-
       <a-plane
         position='0 0 0' 
         scale='1 1 1' 
         rotation='-90 0 0'
-        color="red" 
-      >
-<!--         <a-plane
-        height="2"
-        width="0.25"
-        color="blue"
-        scale="1 2.5 1"
-        position='0 -0.5 0'
-        ></a-plane>
-        <a-plane
+        width="1"
         height="1"
-        width="0.25"
-        color="yellow"
-        scale="1 2.5 1"
-        position='0.25 -1.75 0'
-        ></a-plane>         -->
-        <a-entity geometry="primitive:box;" material="color:white;transparent:true;opacity:0" position="0 0 0.5">
-           <a-entity rotation="0 0 0" scale="2.54 2.54 2.54" position="0 -3 0.125">
+        src="#flag" 
+      >
+        <a-entity geometry="primitive:box;" material="color:#fff;transparent:true;opacity:0" position="0 0 0.5">
+          <a-entity rotation="0 0 0" scale="2.54 2.54 2.54" position="0 -3 0.125">
             <a-obj-model src="#blackpanther-obj" mtl="#blackpanther-mtl" 
                scale="0.77 0.77 0.77" position="0 -0.04 -0.09"
             ></a-obj-model>
-<!--             <a-box height="2" width="0.5" depth="0.5" position="0 1 0" wireframe="true" color="green"></a-box>
-            <a-plane position="0 1.182 -0.245" rotation="0 0 0" width="0.39" height="0.39" color="purple"></a-plane>
- -->          </a-entity>
+          </a-entity>
         </a-entity>
-        
       </a-plane>
-
     </a-marker>
 
     <a-entity light="type:directional" position="-0.3 4.7 -1.5"></a-entity>
     <a-entity light="color:#BBB;type:ambient" position="0 0 0"></a-entity>
     <a-entity camera></a-entity>
-
   </a-scene>  
 
-  <img class="logo left" src="images/imagenationlogo.png">
-  <img class="logo right" src="images/wakandalogo.png">
+  <!-- frame components -->
+  <a class="logo left" href="http://www.imagenation.us/black-panther" target="_blank"><img src="images/imagenationlogo.png"></a>
+  <a class="logo right" href="https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/demos/11_A-Frame_WakandaForeverBooth_AR/res/Imagenation_poster_24X36.pdf" target="_blank"><img src="images/wakandalogo.png"></a>
 
   <div id="footer">
     <img src="images/wakandaforeverslogan.png">
