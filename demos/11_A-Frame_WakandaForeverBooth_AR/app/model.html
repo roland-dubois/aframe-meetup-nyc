@@ -5,6 +5,7 @@
   <title>11_A-Frame_WakandaForeverBooth_AR</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,600" rel="stylesheet">
   <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
   <!--build:css css/styles.min.css-->
   <link rel="stylesheet" href="css/styles.css">
@@ -24,7 +25,7 @@
         rotation='-90 0 0'
         color="red" 
       >
-        <a-plane
+<!--         <a-plane
         height="2"
         width="0.25"
         color="blue"
@@ -37,15 +38,15 @@
         color="yellow"
         scale="1 2.5 1"
         position='0.25 -1.75 0'
-        ></a-plane>        
-        <a-entity geometry="primitive:box;" material="color:blue;wireframe:true" position="0 0 0.5">
+        ></a-plane>         -->
+        <a-entity geometry="primitive:box;" material="color:white;transparent:true;opacity:0" position="0 0 0.5">
            <a-entity rotation="0 0 0" scale="2.54 2.54 2.54" position="0 -3 0.125">
             <a-obj-model src="#blackpanther-obj" mtl="#blackpanther-mtl" 
                scale="0.77 0.77 0.77" position="0 -0.04 -0.09"
             ></a-obj-model>
-            <a-box height="2" width="0.5" depth="0.5" position="0 1 0" wireframe="true" color="green"></a-box>
+<!--             <a-box height="2" width="0.5" depth="0.5" position="0 1 0" wireframe="true" color="green"></a-box>
             <a-plane position="0 1.182 -0.245" rotation="0 0 0" width="0.39" height="0.39" color="purple"></a-plane>
-          </a-entity>
+ -->          </a-entity>
         </a-entity>
         
       </a-plane>
@@ -59,6 +60,15 @@
      </a-entity>
 
   </a-scene>  
+
+
+  <img class="logo left" src="images/imagenationlogo.png">
+  <img class="logo right" src="images/wakandalogo.png">
+
+  <div id="footer">
+    <img src="images/wakandaforeverslogan.png">
+    <p><em>#wakandaforever #webxr @aframevr</em> <span>Signup for </span><span><a href="https://www.meetup.com/Immersive-NYC" target="_blank">IMMERSIVE NYC</a> & <a href="https://www.meetup.com/A-Frame-NYC" target="_blank">A-FRAME NYC</a></span></p>
+  </div>
   <!--build:js js/main.min.js -->
   <script src="js/main.js"></script>
   <!-- endbuild -->
