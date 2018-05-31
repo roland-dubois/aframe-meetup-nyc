@@ -50,7 +50,7 @@ Creating Components and playing with Physics
 
 <img src="images/AFrameDemo10.jpg" alt="PropelifyAR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
-[Overview A-Frame 103 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe102_05-31-2018.pdf)
+[Overview A-Frame 103 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe103_05-31-2018.pdf)
 * Setup: [Gulp Tutorial](https://css-tricks.com/gulp-for-beginners/) & [Git Repo](https://github.com/zellwk/gulp-starter-csstricks)
 * Build: [Propelify AR](https://roland-dubois.github.io/aframe-meetup-nyc/demos/10_A-Frame_Propelify_AR/app/)
 * Assets: [Poster with Marker](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/demos/10_A-Frame_Propelify_AR/res/Propelify_poster.pdf)
