@@ -15,7 +15,7 @@
         	init: function () {
 	          	var el = this.el;  
 	          	el.addEventListener('mouseenter', function () {
-	            	el.setAttribute('color', '#15a');  
+	            	el.setAttribute('color', '#f00');  
 	          	});
 	          	el.addEventListener('mouseleave', function () {
 	            	el.setAttribute('color', '#fff');  
@@ -43,7 +43,7 @@
 
 		<a-camera><a-cursor></a-cursor></a-camera>
 		<a-sky color="#fff" src="#sky"></a-sky>
-		<a-cone static-body color="#b08d63" src="#grass" radius-bottom="0.5" radius-top="0" position="0.02 -0.25 -4"></a-cone>
+		<a-cone static-body color="#b08d63" src="#grass" height="0.15" radius-bottom="0.2" radius-top="0" position="0 0.25 -3.925"></a-cone>
 		<a-plane static-body color="#b08d63" src="#grass" repeat="100 100" rotation="-90 0 0" width="300" height="300"></a-plane>
 
 	</a-scene>
