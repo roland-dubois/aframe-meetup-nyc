@@ -1,4 +1,4 @@
-## Welcome to the A-Frame Meetup NYC :statue_of_liberty:
+## Welcome to the A-Frame Meetup NYC
 You can find here an archive of slides, presentations and workshop materials that are shared in our events.
 
 ## About the Meetup
