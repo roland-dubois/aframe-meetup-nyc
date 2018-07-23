@@ -61,7 +61,7 @@ Creating Components and playing with Physics
 
 ---
 
-### Thursday, Friday 29, 2018
+### Friday, June 29, 2018
 
 <img src="images/AFrameDemo11.jpg" alt="WakandaForeverBoothAR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
