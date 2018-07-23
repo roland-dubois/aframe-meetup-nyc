@@ -18,7 +18,7 @@ You can find here an archive of slides, presentations and workshop materials tha
 * [Glitch](https://glitch.com/edit/#!/aframe-nyc)
 * Additional Resource: [Space Walk enhanced as PWA](https://rdub80.github.io/aframe-sPaceWAlk/)
 
-
+---
 
 ### Friday, March 16, 2018
 
@@ -35,6 +35,8 @@ Creating Components and playing with Physics
 * Build: [NYC Bowling Game](https://roland-dubois.github.io/aframe-meetup-nyc/demos/09_A-Frame_NYC_Bowling/app/)
 * Assets: [Lady Liberty](https://poly.google.com/view/ef9Yd09Doxh)
 
+---
+
 ### Thursday, May 05, 2018
 
 <img src="images/AFrameDemo09.jpg" alt="Bowling" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
@@ -45,6 +47,7 @@ Creating Components and playing with Physics
 * Assets: [Lady Liberty](https://poly.google.com/view/ef9Yd09Doxh)
 * Additional Resource: [Similar Physics VR Project on hacks.mozilla](https://hacks.mozilla.org/2017/05/having-fun-with-physics-and-a-frame/)
 
+---
 
 ### Thursday, May 31, 2018
 
@@ -56,10 +59,21 @@ Creating Components and playing with Physics
 * Assets: [Poster with Marker](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/demos/10_A-Frame_Propelify_AR/res/Propelify_poster.pdf)
 * Additional Resource: [Creating Augmented Reality with AR.js and A-Frame](https://aframe.io/blog/arjs/)
 
+---
+
+### Thursday, Friday 29, 2018
+
+<img src="images/AFrameDemo11.jpg" alt="WakandaForeverBoothAR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+[Overview A-Frame 100 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe100_06-29-2018.pdf)
+* Build: [WakandaForeverBooth AR](https://roland-dubois.github.io/aframe-meetup-nyc/demos/11_A-Frame_WakandaForeverBooth_AR/app/)
+* Assets: [Poster with Marker](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/demos/11_A-Frame_WakandaForeverBooth_AR/res/Imagenation_poster_24X36.pdf)
+* Additional Resource: [Creating Augmented Reality with AR.js and A-Frame](https://aframe.io/blog/arjs/)
+
+---
 
 ## Meetup Challenges
 **Submit your WebAR Project to the world's biggest** [**WebXR Hackathon**](https://hackathon.virtuleap.com/)
-
 
 ## Meetup Resources
 * Dev Starter Files: [00_A-Frame_starter](https://roland-dubois.github.io/aframe-meetup-nyc/demos/00_A-Frame_starter/)
