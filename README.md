@@ -51,7 +51,7 @@ Creating Components and playing with Physics
 
 ### Thursday, May 31, 2018
 
-<img src="images/AFrameDemo10.jpg" alt="PropelifyAR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+<img src="images/AFrameDemo10.jpg" alt="Propelify AR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 [Overview A-Frame 103 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe103_05-31-2018.pdf)
 * Setup: [Gulp Tutorial](https://css-tricks.com/gulp-for-beginners/) & [Git Repo](https://github.com/zellwk/gulp-starter-csstricks)
@@ -63,7 +63,7 @@ Creating Components and playing with Physics
 
 ### Friday, June 29, 2018
 
-<img src="images/AFrameDemo11.jpg" alt="WakandaForeverBoothAR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+<img src="images/AFrameDemo11.jpg" alt="Wakanda Forever Booth AR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 [Overview A-Frame 100 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe100_06-29-2018.pdf)
 * Build: [WakandaForeverBooth AR](https://roland-dubois.github.io/aframe-meetup-nyc/demos/11_A-Frame_WakandaForeverBooth_AR/app/)
@@ -72,8 +72,22 @@ Creating Components and playing with Physics
 
 ---
 
+### Thursday, September 6, 2018
+
+<img src="images/AFrameDemo12.jpg" alt="Data Visualization Project" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+A-Frame 104 Workshop; Dissecting a data visualization project
+[Project Concept by Debra Anderson](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe104_09-06-2018.pdf)
+["A-Frame Pro Mode" Slides by Brian Chirls](https://brianchirls.github.io/aframe-nyc-2018/#1)
+* Virtuleap's Global WebXR Hackathon 2018: [Project submission that scored the *6th place*](https://hackathon.virtuleap.com/apps/details/hd) 
+* Build Version 1: [WebXR4SDGs](https://webxr4sdgs.glitch.me/)
+* Glitch: [WebXR4SDGs Version1 Code](https://glitch.com/edit/#!/webxr4sdgs)
+* Build Version 2: [Datavized WebXR4SDGs](https://datavized-webxr4sdgs.firebaseapp.com/)
+
+---
+
 ## Meetup Challenges
-**Submit your WebAR Project to the world's biggest** [**WebXR Hackathon**](https://hackathon.virtuleap.com/)
+[Submit an A-Frame Game to Mozilla's 13K challenge!](https://js13kgames.com/webxr)
 
 ## Meetup Resources
 * Dev Starter Files: [00_A-Frame_starter](https://roland-dubois.github.io/aframe-meetup-nyc/demos/00_A-Frame_starter/)
