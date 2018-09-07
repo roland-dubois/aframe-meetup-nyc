@@ -75,12 +75,13 @@ Creating Components and playing with Physics
 ### Thursday, September 6, 2018
 
 <img src="images/AFrameDemo12.jpg" alt="Data Visualization Project" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
-A-Frame 104 Workshop; Dissecting a data visualization project
 
-[Project Concept by Debra Anderson](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe104_09-06-2018.pdf)
+**A-Frame 104 Workshop; Dissecting a data visualization project**
+1. [Project Concept by Debra Anderson](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe104_09-06-2018.pdf)    
+2. ["A-Frame Pro Mode" Slides by Brian Chirls](https://brianchirls.github.io/aframe-nyc-2018/#1)
 
-["A-Frame Pro Mode" Slides by Brian Chirls](https://brianchirls.github.io/aframe-nyc-2018/#1)
-* [Virtuleap's Global WebXR Hackathon 2018](https://hackathon.virtuleap.com): [WebXR4SDGs submission](https://hackathon.virtuleap.com/apps/details/hd) that scored the [*6th place*](https://twitter.com/Virtuleap/status/1029791804047220736) Congrats!
+* [Virtuleap Global WebXR Hackathon 2018](https://hackathon.virtuleap.com): [WebXR4SDGs](https://hackathon.virtuleap.com/apps/details/hd) scored the [*6th place*](https://twitter.com/Virtuleap/status/1029791804047220736) 
+> Congrats!
 * Build Version 1: [WebXR4SDGs](https://webxr4sdgs.glitch.me/)
 * Glitch: [WebXR4SDGs Version1 Code](https://glitch.com/edit/#!/webxr4sdgs)
 * Build Version 2: [Datavized WebXR4SDGs](https://datavized-webxr4sdgs.firebaseapp.com/)
