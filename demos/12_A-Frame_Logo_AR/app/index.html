@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prime8 AR Logo</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  <script src="https://unpkg.com/aframe-animation-component@^4.1.2/dist/aframe-animation-component.min.js"></script>
+  <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script> 
+  
+  <!--build:css css/styles.min.css-->
+  <link rel="stylesheet" href="css/styles.css">
+  <!--endbuild-->
+  <!--build:js js/main.min.js -->
+  <script src="js/main.js"></script>
+  <!-- endbuild -->
+
+</head>
+<body style="margin: 0px; overflow: hidden;">
+  <a-scene embedded arjs="debugUIEnabled: false;" vr-mode-ui="enabled: false">
+    <a-assets>
+      <audio id="P8_Tone_A" src="sound/P8_Tone_A.mp3" autoload="true"></audio>
+      <audio id="P8_Tone_C" src="sound/P8_Tone_C.mp3" autoload="true"></audio>
+      <audio id="P8_Tone_D" src="sound/P8_Tone_D.mp3" autoload="true"></audio>
+    </a-assets>
+ 
+    <a-anchor preset="custom" type="pattern" url="prime8.patt" hit-testing-enabled='false'>
+
+      <a-entity position="0 0 0" scale="0.5 0.5 0.5">
+      
+        <a-entity chime="depth:1; pos:-0.25 0 0; snd:#P8_Tone_A">
+          <a-entity tubeset="height:0.01; radius:0.22;" position="-0.235 0.05 -0.15" scale="0.95 1 1"></a-entity>
+          <a-entity barset="height:0.011; width:0.02; depth:0.73;" position="-0.43 0.055 0" scale="1.2 1 1"></a-entity>        
+        </a-entity>
+
+        <a-entity chime="depth:0.5; pos:0.25 0 -0.25; snd:#P8_Tone_C">
+          <a-entity tubeset="height:0.01; radius:0.22;" position="0.215 0.05 -0.15" scale="1 1 1"></a-entity>      
+        </a-entity>      
+        
+        <a-entity chime="depth:0.5; pos:0.25 0 0.25; snd:#P8_Tone_D">
+          <a-entity tubeset="height:0.011; radius:0.22;" position="0.215 0.055 0.15" scale="1 1 1"></a-entity>      
+        </a-entity>
+      
+        <a-plane position="0 0 0" rotation="-90 0 0" width="1" height="1" color="#fff"></a-plane>
+        <a-plane position="0 -0.03 0" rotation="-90 0 0" width="2" height="2" color="#000"></a-plane>
+      
+      </a-entity>
+
+    </a-anchor> 
+
+    <a-entity camera>
+      <a-cursor color="#333" raycaster="interval:100; objects: [chime]" position="0 0 -1"></a-cursor>
+    </a-entity>
+
+  </a-scene>  
+
+</body>
+</html>
