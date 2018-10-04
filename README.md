@@ -74,7 +74,7 @@ Creating Components and playing with Physics
 
 ### Thursday, September 6, 2018
 
-<img src="images/AFrameDemo12.jpg" alt="Data Visualization Project" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+<img src="images/AFrameDemo12a.jpg" alt="Data Visualization Project" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 **A-Frame 104 Workshop; Dissecting a data visualization project**
 1. [Project Concept by Debra Anderson](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe104_09-06-2018.pdf)    
