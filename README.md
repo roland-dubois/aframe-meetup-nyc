@@ -88,6 +88,17 @@ Creating Components and playing with Physics
 
 ---
 
+### Thursday, October 4, 2018
+
+<img src="images/AFrameDemo12.jpg" alt="Logo AR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+[Overview A-Frame 105 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe105_10-04-2018.pdf)
+* Build: [Logo AR](https://roland-dubois.github.io/aframe-meetup-nyc/demos/12_A-Frame_Logo_AR/app/)
+* Marker: [AR Marker](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/demos/12_A-Frame_Logo_AR/ref/Prime8-marker.png)
+* Additional Resource: [Creating Augmented Reality with AR.js and A-Frame](https://aframe.io/blog/arjs/)
+
+---
+
 ## Meetup Challenges
 [Submit an A-Frame Game to Mozilla's 13K challenge!](https://js13kgames.com/webxr)
 
