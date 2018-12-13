@@ -1,21 +1,25 @@
-# Welcome to A-Frame NYC Challenges
+# Welcome to the A-Frame NYC Challenges Archive
 ![inline,fit](../images/aframeNYCmeetup169_holidayChallenge.jpg)
-
 
 ---
 
 ## Immersive Holiday Challenge
 ### Thursday, December 13, 2018
 
-https://aframe-nyc-holiday2018.glitch.me/
+[Preview](https://aframe-nyc-holiday2018.glitch.me/)
+
+[Sample Snowman01](https://snowman01.glitch.me/)
+
+[Sample Snowman02](https://snowman02.glitch.me/)
+
 
 ---
 
 ### LINKS TO TEMPLATES
 
-[Template to build VR](https://aframe-nyc-holiday2018.glitch.me/)
+[Template to build VR](https://glitch.com/edit/#!/a-snowman-webvr-starter)
 
-[Template to build AR](https://aframe-nyc-holiday2018.glitch.me/)
+[Template to build AR](https://glitch.com/edit/#!/a-snowman-webar-starter)
 
 
 ---
@@ -59,28 +63,47 @@ Marker and Pattern file:
 </select>
 
 
-[Greeting Card PDF](holiday2018/resources/card.pdf)
+[Greeting Card printable PDF](holiday2018/resources/card.pdf)
 
 ---
 
-JINGLE Loops (Sponsored by [Prime8](http://prime8.io)) [download here](holiday2018/resources/Snowman_Tracks_AFrameMeetup121318.zip)
+### TEXTURES
 
-1. Modern <audio controls><source src="holiday2018/resources/P8_Jingle_A.mp3" type="audio/mpeg"></audio>
-2. 80s <audio controls><source src="holiday2018/resources/P8_Jingle_B.mp3" type="audio/mpeg"></audio>
-3. Swing <audio controls><source src="holiday2018/resources/P8_Jingle_C.mp3" type="audio/mpeg"></audio>
+Snow texture
+Knit texture
+Wood texture
+Metal texture
 
 ---
 
+### JINGLE Loops 
+(Sponsored by [Prime8](http://prime8.io)) [download here](holiday2018/resources/Snowman_Tracks_AFrameMeetup121318.zip)
 
-When you are done with your Snowman design and setting up the AR app environment send your URL for your AR app together with the address on your marker (qrx.li/snowXX) to 
-rdub80@gmail.com and please make sure you do not change your URL path after submission, the short URL will redirect to your provided AR App URL.
+1. Modern 
+<audio controls><source src="holiday2018/resources/P8_Jingle_A.mp3" type="audio/mpeg"></audio>
+2. 80s 
+<audio controls><source src="holiday2018/resources/P8_Jingle_B.mp3" type="audio/mpeg"></audio>
+3. Swing 
+<audio controls><source src="holiday2018/resources/P8_Jingle_C.mp3" type="audio/mpeg"></audio>
+
+---
+
+When you completed your Snowman design and are setting up the AR app environment submit the URL of your AR app together with the address on your marker (qrx.li/snowXX) to 
+rdub80@gmail.com. Please make sure you do not change your URL path after submission, the short URL will be associated to your AR marker and will redirect to your provided AR App URL.
+
+---
+
+Additional Resources
+
+[A-Frame Docs](https://aframe.io/docs/0.8.0/introduction/)
+
+
+[AR MARKER TRAINING](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
+
 
 ---
 
 * [github.com/roland-dubois/aframe-meetup-nyc](https://roland-dubois.github.io/aframe-meetup-nyc/)
-* Setup: [Gulp Tutorial](https://css-tricks.com/gulp-for-beginners/) & [Git Repo](https://github.com/zellwk/gulp-starter-csstricks)
-* Marker: [AR Marker](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/demos/12_A-Frame_Logo_AR/ref/Prime8-marker.png)
-* Build: [Logo AR](https://roland-dubois.github.io/aframe-meetup-nyc/demos/12_A-Frame_Logo_AR/app/)
 
 Didn't finish? Take the challenge home! Got stuck? Reach out!
 
