@@ -9,16 +9,16 @@
 #### Build a virtual snowman by only using A-Frames primitives.
 
 [Preview - VR Snowfamily](https://aframe-nyc-holiday2018.glitch.me/)
-We will be featuring your creations at this location
+(We will be featuring your creations at this location)
 
-[Preview AR marker](https://a-snowman01-ar.glitch.me/) [Preview AR marker - Code](https://glitch.com/edit/#!/a-snowman-ar)
+[Preview AR marker](https://a-snowman01-ar.glitch.me/) | [Preview AR marker - Code](https://glitch.com/edit/#!/a-snowman-ar)
 
 <img src="holiday2018/resources/snow01/marker_snow01.png" width="50%">
 
 
 Build Examples:
 
-[Sample Snowman01](https://snowman01.glitch.me/) * [Sample Snowman02](https://snowman02.glitch.me/)
+[Sample Snowman01](https://snowman01.glitch.me/) | [Sample Snowman02](https://snowman02.glitch.me/)
 
 
 ---
