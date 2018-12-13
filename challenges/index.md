@@ -3,14 +3,13 @@
 
 ---
 
-## Immersive Holiday Challenge
-### Thursday, December 13, 2018
+### Immersive Holiday Challenge
+#### Thursday, December 13, 2018
 
 [Preview](https://aframe-nyc-holiday2018.glitch.me/)
 
-[Sample Snowman01](https://snowman01.glitch.me/)
-
-[Sample Snowman02](https://snowman02.glitch.me/)
+Build Examples:
+[Sample Snowman01](https://snowman01.glitch.me/) [Sample Snowman02](https://snowman02.glitch.me/)
 
 
 ---
@@ -69,9 +68,13 @@ Marker and Pattern file:
 
 ### TEXTURES
 
+<img src="holiday2018/resources/snowtexture.jpg" width="25%">
 Snow texture
+<img src="holiday2018/resources/knittexture.jpg" width="25%">
 Knit texture
+<img src="holiday2018/resources/woodtexture.jpg" width="25%">
 Wood texture
+<img src="holiday2018/resources/metaltexture.jpg" width="25%">
 Metal texture
 
 ---
@@ -88,12 +91,12 @@ Metal texture
 
 ---
 
-When you completed your Snowman design and are setting up the AR app environment submit the URL of your AR app together with the address on your marker (qrx.li/snowXX) to 
+#### When you completed your Snowman design and are setting up the AR app environment submit the URL of your AR app together with the address on your marker (qrx.li/snowXX) to 
 rdub80@gmail.com. Please make sure you do not change your URL path after submission, the short URL will be associated to your AR marker and will redirect to your provided AR App URL.
 
 ---
 
-Additional Resources
+### Additional Resources
 
 [A-Frame Docs](https://aframe.io/docs/0.8.0/introduction/)
 
