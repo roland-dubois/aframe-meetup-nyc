@@ -3,8 +3,7 @@
 
 ---
 
-### Immersive Holiday Challenge
-### Thursday, December 13, 2018
+### Immersive Holiday Challenge - Thursday, December 13, 2018
 
 #### Build a virtual snowman by only using A-Frames primitives.
 
@@ -15,11 +14,9 @@
 
 <img src="holiday2018/resources/snow01/marker_snow01.png" width="50%">
 
-
 Build Examples:
 
 [Sample Snowman01](https://snowman01.glitch.me/) | [Sample Snowman02](https://snowman02.glitch.me/)
-
 
 ---
 
@@ -29,7 +26,6 @@ Build Examples:
 
 [Template to build AR](https://glitch.com/edit/#!/a-snowman-webar-starter)
 
-
 ---
 
 ### DOWNLOAD ASSETS
@@ -37,7 +33,7 @@ Build Examples:
 Marker and Pattern file:
 
 <select onchange="window.open(this.options[this.selectedIndex].value, '_blank')">
-  <option selected value="">Select your file number</option>
+  <option selected value="">Select your marker set</option>
   <option value="holiday2018/resources/snow01.zip">snow01</option>
   <option value="holiday2018/resources/snow02.zip">snow02</option>
   <option value="holiday2018/resources/snow03.zip">snow03</option>
@@ -114,11 +110,13 @@ Marker and Pattern file:
 
 ### Additional Resources
 
-[A-Frame Docs](https://aframe.io/docs/0.8.0/introduction/)
+* [A-Frame Docs](https://aframe.io/docs/0.8.0/introduction/)
 
+* [AR MARKER TRAINING](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
 
-[AR MARKER TRAINING](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
+* [Great AR.js Article on Medium](https://medium.com/chialab-open-source/ar-js-the-simpliest-way-to-get-cross-browser-ar-on-the-web-8f670dd45462)
 
+* [Tips on making the most of AR.js Markers in A-Frame](https://medium.com/@aschmelyun/tips-tricks-to-spice-up-your-ar-js-projects-fa89bc2ec296)
 
 ---
 
