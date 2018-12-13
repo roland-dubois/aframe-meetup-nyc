@@ -103,8 +103,7 @@ Marker and Pattern file:
 
 ---
 
-#### When you completed your Snowman design and are setting up the AR app environment submit the URL of your AR app together with the address on your marker (qrx.li/snowXX) to 
-rdub80@gmail.com. Please make sure you do not change your URL path after submission, the short URL will be associated to your AR marker and will redirect to your provided AR App URL.
+#### When you completed your Snowman design and are setting up the AR app environment submit the URL of your AR app together with the address on your marker (qrx.li/snowXX) to rdub80@gmail.com. Please make sure you do not change your URL path after submission, the short URL will be associated to your AR marker and will redirect to your provided AR App URL.
 
 ---
 
