@@ -68,14 +68,14 @@ Marker and Pattern file:
 
 ### TEXTURES
 
-<img src="holiday2018/resources/snowtexture.jpg" width="25%">
 Snow texture
-<img src="holiday2018/resources/knittexture.jpg" width="25%">
+<img src="holiday2018/resources/snowtexture.jpg" width="25%">
 Knit texture
-<img src="holiday2018/resources/woodtexture.jpg" width="25%">
+<img src="holiday2018/resources/knittexture.jpg" width="25%">
 Wood texture
-<img src="holiday2018/resources/metaltexture.jpg" width="25%">
+<img src="holiday2018/resources/woodtexture.jpg" width="25%">
 Metal texture
+<img src="holiday2018/resources/metaltexture.jpg" width="25%">
 
 ---
 
