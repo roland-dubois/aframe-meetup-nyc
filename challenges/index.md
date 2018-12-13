@@ -68,25 +68,21 @@ Marker and Pattern file:
 
 ### TEXTURES
 
-<figure style="display: inline-block; ">
-  <img src="holiday2018/resources/snowtexture.jpg" width="22%">
-  <figcaption>Snow texture</figcaption>
-</figure>
 
-<figure style="display: inline-block; ">
-  <img src="holiday2018/resources/knittexture.jpg" width="22%">
-  <figcaption>Knit texture</figcaption>
-</figure>
-
-<figure style="display: inline-block; ">
-  <img src="holiday2018/resources/woodtexture.jpg" width="22%">
-  <figcaption>Wood texture</figcaption>
-</figure>
-
-<figure style="display: inline-block; ">
-  <img src="holiday2018/resources/metaltexture.jpg" width="22%">
-  <figcaption>Metal texture</figcaption>
-</figure>
+<table>
+<tr>
+ <th scope="col">Snow texture</th>
+ <th scope="col">Knit texture</th>
+ <th scope="col">Wood texture</th>
+ <th scope="col">Metal texture</th>
+</tr>
+<tr>
+ <td><img src="holiday2018/resources/snowtexture.jpg" width="100%"></td>
+ <td><img src="holiday2018/resources/knittexture.jpg" width="100%"></td>
+ <td><img src="holiday2018/resources/woodtexture.jpg" width="100%"></td>
+ <td><img src="holiday2018/resources/metaltexture.jpg" width="100%"></td>
+</tr>
+</table>
 
 
 ---
