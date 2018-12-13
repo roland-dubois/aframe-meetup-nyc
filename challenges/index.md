@@ -4,12 +4,15 @@
 ---
 
 ### Immersive Holiday Challenge
-#### Thursday, December 13, 2018
+### Thursday, December 13, 2018
+
+#### Build a virtual snowman by only using A-Frames primitives.
 
 [Preview](https://aframe-nyc-holiday2018.glitch.me/)
 
 Build Examples:
-[Sample Snowman01](https://snowman01.glitch.me/) [Sample Snowman02](https://snowman02.glitch.me/)
+
+[Sample Snowman01](https://snowman01.glitch.me/) * [Sample Snowman02](https://snowman02.glitch.me/)
 
 
 ---
