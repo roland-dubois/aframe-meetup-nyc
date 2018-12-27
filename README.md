@@ -115,8 +115,11 @@ Creating Components and playing with Physics
 
 **A-Frame 107: Immersive Holiday Challenge**
 
-*[Challenge Archive](https://roland-dubois.github.io/aframe-meetup-nyc/challenges/)
-*[Challenge Gallery](https://qxr.li/snowvr)
+* [Challenge Archive](https://roland-dubois.github.io/aframe-meetup-nyc/challenges/)
+* [Challenge Gallery](https://qxr.li/snowvr)
+* Sample Build VR: [Snowman01 VR](https://snowman01.glitch.me/)
+* Sample Build AR: [Snowman01 AR](https://qxr.li/snow01)
+* Sample Marker: [Snowman01 AR Marker](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/challenges/holiday2018/resources/snow01/marker_snow01.png)
 
 
 ---
