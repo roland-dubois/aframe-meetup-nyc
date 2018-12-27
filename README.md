@@ -92,6 +92,7 @@ Creating Components and playing with Physics
 
 <img src="images/AFrameDemo12.jpg" alt="Logo AR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
+**A-Frame 105 Workshop; Emphasis web-based AR**
 [Overview A-Frame 105 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe105_10-04-2018.pdf)
 * Build: [Logo AR](https://roland-dubois.github.io/aframe-meetup-nyc/demos/12_A-Frame_Logo_AR/app/)
 * Marker: [AR Marker](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/demos/12_A-Frame_Logo_AR/ref/Prime8-marker.png)
@@ -99,8 +100,29 @@ Creating Components and playing with Physics
 
 ---
 
+### Friday, October 26, 2018
+
+<img src="images/AFrameDemo13.jpg" alt="Logo AR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+**A-Frame 106 Workshop; Immersive Halloween Challenge**
+
+
+---
+
+### Thursday, December 13, 2018
+
+<img src="images/AFrameDemo14.jpg" alt="Logo AR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+**A-Frame 107: Immersive Holiday Challenge**
+
+*[Challenge Archive](https://roland-dubois.github.io/aframe-meetup-nyc/challenges/)
+*[Challenge Gallery](https://qxr.li/snowvr)
+
+
+---
+
 ## Meetup Challenges
-[Submit an A-Frame Game to Mozilla's 13K challenge!](https://js13kgames.com/webxr)
+... stay tuned for upcoming announcements in 2019
 
 ## Meetup Resources
 * Dev Starter Files: [00_A-Frame_starter](https://roland-dubois.github.io/aframe-meetup-nyc/demos/00_A-Frame_starter/)
