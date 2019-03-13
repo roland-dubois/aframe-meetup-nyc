@@ -1,0 +1,33 @@
+$text-color: #19a19d;
+$link-color: #ff2863;
+
+#top {
+	text-align: center;
+	z-index: 100000;
+	position: absolute;
+	top: 5px;
+	width: 90%;
+	padding: 0 5%;
+	color: $text-color;
+	font-size: 1em;
+	line-height: 1.4em;
+	font-family: Helvetica, Arial, sans-serif;
+	a {
+		color: $link-color;
+	}
+}
+#visual-inspector-button {
+	z-index: 100000;
+	position: absolute;
+	width: 4vw;
+	height: 4vw;
+	min-width: 30px;
+	min-height: 30px;
+	left: 20px;
+	bottom: 20px;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.3);
+	&:hover {
+		background-color: #555;
+	}
+}

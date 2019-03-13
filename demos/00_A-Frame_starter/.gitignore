@@ -1,3 +1,16 @@
-dist 
+# dependencies
 node_modules
+
+# production
+build
+
+# misc
+.DS_Store
+
 package-lock.json
+
+npm-debug.log
+yarn-error.log
+yarn.lock
+.yarnclean
+.vscode

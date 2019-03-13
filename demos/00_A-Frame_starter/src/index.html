@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>00_A-Frame_starter</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
+	<script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
+</head>
+<body>
+
+  <a-scene>
+  	
+    <a-assets>
+      <!-- https://poly.google.com/view/ef9Yd09Doxh -->
+      <a-asset-item id="libertystatue-obj" src="assets/libertystatue.obj"></a-asset-item>
+      <a-asset-item id="libertystatue-mtl" src="assets/libertystatue.mtl"></a-asset-item>      
+    </a-assets>
+
+    <a-obj-model src="#libertystatue-obj" mtl="#libertystatue-mtl" 
+      position="0 2 -3.5" 
+      shadow
+      rotation="0 -12 0"
+    ></a-obj-model>
+
+    <a-box position="-1 0.5 -3" rotation="0 45 0" color="#f4ea00" shadow></a-box>
+    <a-sphere position="0 1 -5" radius="1" color="#ff2863" shadow></a-sphere>
+    <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#00c7fe" shadow></a-cylinder>
+
+    <a-entity
+      text="align:center; value: Hey there A-Framer - Welcome to the NYC Meetup!"
+      scale="2 2 2"
+      position="0 0.125 -2"></a-entity>   
+
+    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#19a19d" shadow></a-plane>
+    <a-sky color="#f3f3f3"></a-sky>
+
+    <a-entity id="cameraRig" position="0 1.6 0">
+      <a-camera look-controls wasd-controls position="0 0 0"> <!-- look-controls="pointerLockEnabled:true" wasd-controls="enabled:false" -->
+        <a-cursor></a-cursor>
+      </a-camera>
+    </a-entity>
+
+  </a-scene>
+
+
+	<!-- credits  -->
+    <div id="top">
+      <a target="_blank" href="https://github.com/roland-dubois/aframe-meetup-nyc">Starter WebXR Dev Setup</a> by Roland Dubois from the <a target="_blank" href="https://www.meetup.com/A-Frame-NYC/">A-Frame NYC Meetup</a> for <a target="_blank" href="https://aframe.io/">A-Frame</a> using the Lady Liberty model from <a target="_blank" href="https://poly.google.com/user/bq8AiZdKZ0P">Anna Crabbe MacGillivray</a>
+    </div>
+
+	<!-- optional for development  -->
+    <div id="visual-inspector-button">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M31.4,20.2l-.6-4.4,2.6-1.7-2.5-3.7-2.6,1.7L24.7,9.4l.6-3-4.4-.9-.6,3-4.4.6L14.2,6.5,10.5,9l1.7,2.6L9.5,15.2l-3-.6L5.6,19l3,.6L9.2,24,6.6,25.7l2.5,3.7,2.6-1.7,3.6,2.7-.6,3,4.4.9.6-3,4.4-.6,1.7,2.6,3.7-2.5-1.7-2.6s2.6-3.5,2.7-3.6l3,.6.9-4.4ZM20,25.5A5.5,5.5,0,1,1,25.5,20,5.5,5.5,0,0,1,20,25.5Z" style="fill:#fff"></path></svg>
+    </div>
+
+	<script>
+	// optional for development
+	document.querySelector('#visual-inspector-button').addEventListener('click', function(){
+		window.postMessage('INJECT_AFRAME_INSPECTOR','*');
+		document.querySelector('#visual-inspector-button').style.display = 'none';
+	})
+	</script>  
+</body>
+</html>
