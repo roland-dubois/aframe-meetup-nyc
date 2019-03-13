@@ -2,9 +2,6 @@
 
 [**Download the package here**](https://rawgit.com/roland-dubois/aframe-meetup-nyc/master/demos/00_A-Frame_starter.zip)
 
-This demo is built on top of [How to setup your Workflow using Gulp v4.0.0](https://levelup.gitconnected.com/how-to-setup-your-workflow-using-gulp-v4-0-0-5450e3d7c512). 
-
-
 Check if you have node installed: `node -v`
 
 Check if you have npm installed: `npm -v`
