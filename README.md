@@ -106,7 +106,6 @@ Creating Components and playing with Physics
 
 **A-Frame 106 Workshop; Immersive Halloween Challenge**
 
-
 ---
 
 ### Thursday, December 13, 2018
@@ -121,11 +120,51 @@ Creating Components and playing with Physics
 * Sample Build AR: [Snowman01 AR](https://qxr.li/snow01)
 * Sample Marker: [Snowman01 AR Marker](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/challenges/holiday2018/resources/snow01/marker_snow01.png)
 
+---
+
+### Wednesday, February 20, 2019
+
+<img src="images/outreach&network.png" alt="last years recap" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+**A-Frame 108: Kickstart WebXR in 2019 with A-Frame's Release 0.9**
+
+* [Overview A-Frame 108 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe108_02-20-2019.pdf)
+* Animation Component Comparison: [Old Animation Component](https://aframe-nyc-old-ani.glitch.me/) [New Animation Component](
+https://aframe-nyc-new-ani.glitch.me/)
+* A-Frame NYC - Take Home Project: [A-Robots](https://github.com/roland-dubois/aframe-meetup-nyc/blob/master/meetup_aframe108_02-20-2019.md#take-home-project)
+
+---
+
+### Thursday, March 14, 2019
+
+**A-Frame 109: Intro to building components**
+
+more details soon...
 
 ---
 
 ## Meetup Challenges
-... stay tuned for upcoming announcements in 2019
+This Year 2019 all meetup members are encouraged to take part of a Take Home Project we named "A-Robots".
+As a part of a larger project that we are building together over the course of this year, every member is building their own creation. Based on each individuals coding knowledge and comfort with the technology, every member will progressively add and integrate step by step what we are learning in each workshop. This is not only to help every participant to grow their knowledge but also drive active participation and following along in the workshop lesson plan.
+
+### Here are the list of steps for each month outlined for any late comers to catch up
+
+#### The first step:
+
+* Create your own robot made with A-Frame Primitives (`<a-box>, <a-cylinder>, <a-sphere>, ...` ), doesn't have to be humanoid but needs to feature at least one "arm"
+* Maximum Size: width:1; height:2; depth:1;
+* No Textures, only HEX colors
+* No Animations (yet)
+
+Need Inspiration?
+<img src="images/robots.jpg" alt="robot illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+#### The second step:
+
+more details soon...
+
+
+---
 
 ## Meetup Resources
 * Dev Starter Files: [00_A-Frame_starter](https://roland-dubois.github.io/aframe-meetup-nyc/demos/00_A-Frame_starter/)
