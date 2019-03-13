@@ -144,17 +144,20 @@ more details soon...
 ---
 
 ## Meetup Challenges
-This Year 2019 all meetup members are encouraged to take part of a Take Home Project we named "A-Robots".
-As a part of a larger project that we are building together over the course of this year, every member is building their own creation. Based on each individuals coding knowledge and comfort with the technology, every member will progressively add and integrate step by step what we are learning in each workshop. This is not only to help every participant to grow their knowledge but also drive active participation and following along in the workshop lesson plan.
+This year 2019 all meetup members are encouraged to take part of a **Take Home Project** we named **"A-Robots"**.
+
+As a part of a larger project that we are building together over the course of this year, every member is building their own creation. Based on each individuals coding knowledge and comfort with the technology, every member will progressively add and integrate step by step what we are learning in each workshop. 
+This is not only designed to help every participant to grow their A-Frame knowledge but also drive active participation and collaboration within the meetup and everyone is following along with the workshop lesson plan.
+
 
 ### Here are the list of steps for each month outlined for any late comers to catch up
 
 #### The first step:
 
-* Create your own robot made with A-Frame Primitives (`<a-box>, <a-cylinder>, <a-sphere>, ...` ), doesn't have to be humanoid but needs to feature at least one "arm"
-* Maximum Size: width:1; height:2; depth:1;
+* Create your own robot made with A-Frame Primitives ( `<a-box>, <a-cylinder>, <a-sphere>, ...` ), doesn't have to be humanoid but needs to feature at least one "arm"
+* Maximum Size: **width:1; height:2; depth:1;**
 * No Textures, only HEX colors
-* No Animations (yet)
+* No Animations (*yet*)
 
 Need Inspiration?
 <img src="images/robots.jpg" alt="robot illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
