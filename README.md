@@ -150,9 +150,9 @@ As a part of a larger project that we are building together over the course of t
 This is not only designed to help every participant to grow their A-Frame knowledge but also drive active participation and collaboration within the meetup and everyone is following along with the workshop lesson plan.
 
 
-### Here are the list of steps for each month outlined for any late comers to catch up
+#### Outlined below is the list of steps of the last months for any new members to catch up
 
-#### The first step:
+##### The first step:
 
 * Create your own robot made with A-Frame Primitives ( `<a-box>, <a-cylinder>, <a-sphere>, ...` ), doesn't have to be humanoid but needs to feature at least one "arm"
 * Maximum Size: **width:1; height:2; depth:1;**
@@ -162,7 +162,7 @@ This is not only designed to help every participant to grow their A-Frame knowle
 Need Inspiration?
 <img src="images/robots.jpg" alt="robot illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
-#### The second step:
+##### The second step:
 
 more details soon...
 
