@@ -30,6 +30,8 @@
     "@babel/preset-env": "^7.1.0",
     "acorn": "^6.1.1",
     "babel-loader": "^8.0.4",
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "2.2.2",
     "clean-webpack-plugin": "^0.1.19",
     "copy-webpack-plugin": "^4.5.4",
     "css-loader": "^1.0.0",
