@@ -137,6 +137,8 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 ### Thursday, March 14, 2019
 
+<img src="images/components-workshop.jpg" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
 **A-Frame 109: Intro to building components**
 
 * [Overview A-Frame 109 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe109_03-14-2019.pdf)
