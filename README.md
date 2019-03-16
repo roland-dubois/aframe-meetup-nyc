@@ -185,6 +185,7 @@ Research how Pixar, Disney, Dreamworks and other creators are applying emotional
 * [Facebook reactions](https://www.wired.com/2016/02/facebook-reactions-totally-redesigned-like-button/) 
 * [The Emotion Wheel](https://positivepsychologyprogram.com/emotion-wheel/)
 
+Need Inspiration?
 <img src="images/robot_emotions.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 
