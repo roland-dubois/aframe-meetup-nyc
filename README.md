@@ -139,7 +139,11 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 **A-Frame 109: Intro to building components**
 
-more details soon...
+* [Overview A-Frame 109 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe109_03-14-2019.pdf)
+* The workshop focusses on building components from a composition of entities with modifiable settings, like flower height and petal color. In the example I created a sunflower entity `class='flower1'` and converted it into a component that can be modified and randomly generated
+* Take the sunflower entity `class='flower2'` from this page: [Sunflower in entities](https://a-frame-nyc-109-components1.glitch.me/) and convert it into a component that can be generated into a randomized field with 100 flowers like it is coded on the page: [Sunflower component field](https://a-frame-nyc-109-components2.glitch.me/)
+* Feel free to remix the pages and inspect how I built it [Part1 Entities](https://glitch.com/edit/#!/a-frame-nyc-109-components1) and [Part2 Components](https://glitch.com/edit/#!/a-frame-nyc-109-components2)
+* Bonus: combine both sunflower components into one and display each of the flowers depending on the string variable `'mood': 'happy' or 'mood': 'sad'` defined in the [schema here](https://glitch.com/edit/#!/a-frame-nyc-109-components2?path=script.js:10:11)
 
 ---
 
@@ -163,6 +167,30 @@ Need Inspiration?
 <img src="images/robots.jpg" alt="robot illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 ##### The second step:
+
+* Add six basic emotional expressions to your robot 
+
+1. Cheerful / Happy
+2. Charmed / In Love
+3. Amused / Laughing
+4. Surprised / Shocked
+5. Sad / Dissapointed
+6. Angry / Unhappy
+
+* Create a page that portrays each expression in a line up of your robot (six  individual robots side by side) you can remix [this template] (https://glitch.com/edit/#!/a-robots-emotions-template) | [Preview](https://a-robots-emotions-template.glitch.me/)
+
+Tip: You can achieve this expressions by looking into facial impressions, body posture, or other creative ways, maybe even words on a screen, sign or speaking bubble.  
+Research how Pixar, Disney, Dreamworks and other creators are applying emotional cues to inanimate objects. Subtle works.
+
+* [Facebook reactions](https://www.wired.com/2016/02/facebook-reactions-totally-redesigned-like-button/) 
+* [The Emotion Wheel](https://positivepsychologyprogram.com/emotion-wheel/)
+
+<img src="images/robot_emotions.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+
+
+
+##### The third step:
 
 more details soon...
 
