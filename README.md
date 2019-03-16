@@ -179,7 +179,7 @@ Need Inspiration?
 5. Sad / Dissapointed
 6. Angry / Unhappy
 
-* Create a page that portrays each expression in a line up of your robot (six  individual robots side by side) you can remix [this template] (https://glitch.com/edit/#!/a-robots-emotions-template) | [Preview](https://a-robots-emotions-template.glitch.me/)
+* Create a page that portrays each expression in a line up of your robot (six  individual robots side by side) you can remix [this template](https://glitch.com/edit/#!/a-robots-emotions-template) - [Preview](https://a-robots-emotions-template.glitch.me/)
 
 Tip: You can achieve this expressions by looking into facial impressions, body posture, or other creative ways, maybe even words on a screen, sign or speaking bubble.  
 Research how Pixar, Disney, Dreamworks and other creators are applying emotional cues to inanimate objects. Subtle works.
