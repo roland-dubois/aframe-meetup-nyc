@@ -78,6 +78,12 @@ White pixels in the map increase metalness. Black pixels reduce metalness to 0. 
 
 ---
 
+## Ambient
+
+An ambient occlusion (AO) texture map is a greyscale image, with white indicating areas that should receive full indirect lighting, and black indicating no indirect lighting.
+
+---
+
 ## Syntax: Material
 
 ```html
