@@ -109,6 +109,7 @@ White pixels in the map increase metalness. Black pixels reduce metalness to 0. 
 ---
 
 [A-Train by night demo](https://a-frame-nyc-110-demo.glitch.me/)
+[A-Train by night edit](https://glitch.com/edit/#!/a-frame-nyc-110-demo)
 
 Resources:
 
