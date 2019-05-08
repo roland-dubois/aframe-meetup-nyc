@@ -149,6 +149,32 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 ---
 
+### Thursday, April 11, 2019
+
+<img src="images/components-workshop.jpg" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+**A-Frame 110: Creating Ambience: Lights, Materials, and Animation**
+
+* [Overview A-Frame 110 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe110_04-11-2019.pdf)
+* Lights, Materials, and Animation Demo: [A-Train by night demo](https://a-frame-nyc-110-demo.glitch.me/) [A-Train by night edit](https://glitch.com/edit/#!/a-frame-nyc-110-demo)
+
+
+---
+
+### Thursday, May 07, 2019
+
+<img src="images/shaderdemo.jpg" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+**A-Frame 111: A glance at Shaders: Tinkering with ShaderFrog**
+
+* [Overview A-Frame 111 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe111_05-07-2019.pdf)
+* [Shaders demo](https://aframe111-shaders.glitch.me/) [Shaders edit](https://glitch.com/edit/#!/aframe111-shaders)
+* Components: [aframe-import-shaderfrog](https://github.com/chenzlabs/aframe-import-shaderfrog), [aframeFrogShaders](https://github.com/msj121/aframeFrogShaders), [CS1 Game Engine for making 3D multiplayer games in JavaScript](https://cs1.glitch.me/) by [Eric Eisaman](https://www.youtube.com/channel/UC8Iv9MnaiiWjIKY9kCBysLA)
+* Resources/Tools/Editors: [https://shaderfrog.com/](https://shaderfrog.com/), [https://shadertoy.com/](https://shadertoy.com/)
+
+
+---
+
 ## Meetup Challenges
 This year 2019 all meetup members are encouraged to take part of a **Take Home Project** we named **"A-Robots"**.
 
@@ -191,11 +217,29 @@ Need Inspiration?
 <img src="images/robot_emotions.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 
-
-
 ##### The third step:
 
-more details soon...
+* Apply textures to your robot 
+* Pick one of your emotional states
+* Create a dramatic scene (lights, textures, environment)
+* Take a screenshot and create a cover poster for your Robot
+
+Tip: Think about movie posters, it doesn't have to be complicated.
+
+Need Inspiration?
+<img src="images/ambientrobot.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+
+##### The forth step:
+
+* Create one custom shader
+* Apply the shader to one part of your robot 
+* Show/hide the shader by triggering a custom key/trigger
+
+Tip: Use the shader to visualize engine thrusters, magic powers or emotional cues
+
+Need Inspiration?
+<img src="images/shaderrobot.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 
 ---
