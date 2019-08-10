@@ -1,6 +1,7 @@
-# Welcome to the A-Frame NYC A-Robots Club
-<img src="assets/a-robots-ani.gif" width="50%">
+## Welcome to the A-Frame NYC
+# A-Robots Club
 
+<img src="assets/a-robots-ani.gif" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 As a part of a larger project that we are building together over the course of this year, every member is building their own creation. Based on each individuals coding knowledge and comfort with the technology, every member will progressively add and integrate step by step what we are learning in each workshop. 
 This is not only designed to help every participant to grow their A-Frame knowledge but also drive active participation and collaboration within the meetup and everyone is following along with the workshop lesson plan.
