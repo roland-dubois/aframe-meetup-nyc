@@ -92,17 +92,21 @@ Need Inspiration?
 * Submit a version of your robot for the A-Robots.club website
 * DM me for more info @rolandddubois
 
-Remix these Avatar builds and place them in your own Social VR environment!
-[Avatar 1](https://glitch.com/edit/#!/a-robot-avatar1) - [Avatar 2](https://glitch.com/edit/#!/a-robot-avatar2) - [Avatar 3](https://glitch.com/edit/#!/a-robot-avatar3) 
+* [Avatar #1 demo](https://a-robot-avatar1.glitch.me) [Avatar #1 edit](https://glitch.com/edit/#!/a-robot-avatar1) 
+* [Avatar #2 demo](https://a-robot-avatar2.glitch.me) [Avatar #2 edit](https://glitch.com/edit/#!/a-robot-avatar2) 
+* [Avatar #3 demo](https://a-robot-avatar3.glitch.me) [Avatar #3 edit](https://glitch.com/edit/#!/a-robot-avatar3) 
 
-Remix the Social VR [Demo]((https://glitch.com/edit/#!/demo-networked-aframe)
-Try:
-- [https://demo-networked-aframe.glitch.me/?avatar=avatar1](https://demo-networked-aframe.glitch.me/?avatar=avatar1)
-- [https://demo-networked-aframe.glitch.me/?avatar=avatar2](https://demo-networked-aframe.glitch.me/?avatar=avatar2)
-- [https://demo-networked-aframe.glitch.me/?avatar=avatar3](https://demo-networked-aframe.glitch.me/?avatar=avatar3)
+**Remix these Avatar builds and place them in your own Social VR environment!**
+
+* [Social VR demo with Avatar #1](https://demo-networked-aframe.glitch.me/?avatar=avatar1)
+* [Social VR demo with Avatar #2](https://demo-networked-aframe.glitch.me/?avatar=avatar2)
+* [Social VR demo with Avatar #3](https://demo-networked-aframe.glitch.me/?avatar=avatar3)
+* [Social VR edit](https://glitch.com/edit/#!/demo-networked-aframe)
+
+* Resources: [networked-aframe component demos](https://haydenlee.io/networked-aframe/), [networked-aframe component on GitHub](https://github.com/networked-aframe/networked-aframe)
 
 
-<img src="assets/robots-vr.jpg" alt="robots in social VR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+<img src="assets/robots-vr.png" alt="robots in social VR" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 ---
 

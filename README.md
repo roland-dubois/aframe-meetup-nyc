@@ -175,7 +175,7 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 ### Thursday, July 25, 2019
 
-<img src="images/robots-vr.jpg" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+<img src="images/robots-vr.png" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 **A-Frame 112: Networked A-Frame - Meet inside the immersive web**
 
@@ -191,7 +191,7 @@ https://aframe-nyc-new-ani.glitch.me/)
 * [Social VR demo with Avatar #1](https://demo-networked-aframe.glitch.me/?avatar=avatar1)
 * [Social VR demo with Avatar #2](https://demo-networked-aframe.glitch.me/?avatar=avatar2)
 * [Social VR demo with Avatar #3](https://demo-networked-aframe.glitch.me/?avatar=avatar3)
-* [Social VR edit]((https://glitch.com/edit/#!/demo-networked-aframe)
+* [Social VR edit](https://glitch.com/edit/#!/demo-networked-aframe)
 
 * Resources: [networked-aframe component demos](https://haydenlee.io/networked-aframe/), [networked-aframe component on GitHub](https://github.com/networked-aframe/networked-aframe)
 
