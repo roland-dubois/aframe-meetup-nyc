@@ -158,7 +158,6 @@ https://aframe-nyc-new-ani.glitch.me/)
 * [Overview A-Frame 110 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe110_04-11-2019.pdf)
 * Lights, Materials, and Animation Demo: [A-Train by night demo](https://a-frame-nyc-110-demo.glitch.me/) [A-Train by night edit](https://glitch.com/edit/#!/a-frame-nyc-110-demo)
 
-
 ---
 
 ### Thursday, May 07, 2019
@@ -172,75 +171,34 @@ https://aframe-nyc-new-ani.glitch.me/)
 * Components: [aframe-import-shaderfrog](https://github.com/chenzlabs/aframe-import-shaderfrog), [aframeFrogShaders](https://github.com/msj121/aframeFrogShaders), [CS1 Game Engine for making 3D multiplayer games in JavaScript](https://cs1.glitch.me/) by [Eric Eisaman](https://www.youtube.com/channel/UC8Iv9MnaiiWjIKY9kCBysLA)
 * Resources/Tools/Editors: [https://shaderfrog.com/](https://shaderfrog.com/), [https://shadertoy.com/](https://shadertoy.com/)
 
+---
+
+### Thursday, July 25, 2019
+
+<img src="images/robots-vr.jpg" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+**A-Frame 112: Networked A-Frame - Meet inside the immersive web**
+
+* [Overview A-Frame 112 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe112_07-25-2019.pdf)
+* [NAF - Social VR on the web by Hayden Lee](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe112_guestprez_Networked-Aframe_in_15_minutes.pdf)
+
+* [Avatar #1 demo](https://a-robot-avatar1.glitch.me) [Avatar #1 edit](https://glitch.com/edit/#!/a-robot-avatar1) 
+* [Avatar #2 demo](https://a-robot-avatar2.glitch.me) [Avatar #2 edit](https://glitch.com/edit/#!/a-robot-avatar2) 
+* [Avatar #3 demo](https://a-robot-avatar3.glitch.me) [Avatar #3 edit](https://glitch.com/edit/#!/a-robot-avatar3) 
+
+**Remix these Avatar builds and place them in your own Social VR environment!**
+
+* [Social VR demo with Avatar #1](https://demo-networked-aframe.glitch.me/?avatar=avatar1)
+* [Social VR demo with Avatar #2](https://demo-networked-aframe.glitch.me/?avatar=avatar2)
+* [Social VR demo with Avatar #3](https://demo-networked-aframe.glitch.me/?avatar=avatar3)
+* [Social VR edit]((https://glitch.com/edit/#!/demo-networked-aframe)
+
+* Resources: [networked-aframe component demos](https://haydenlee.io/networked-aframe/), [networked-aframe component on GitHub](https://github.com/networked-aframe/networked-aframe)
+
 
 ---
 
-## Meetup Challenges
-This year 2019 all meetup members are encouraged to take part of a **Take Home Project** we named **"A-Robots"**.
-
-As a part of a larger project that we are building together over the course of this year, every member is building their own creation. Based on each individuals coding knowledge and comfort with the technology, every member will progressively add and integrate step by step what we are learning in each workshop. 
-This is not only designed to help every participant to grow their A-Frame knowledge but also drive active participation and collaboration within the meetup and everyone is following along with the workshop lesson plan.
-
-
-#### Outlined below is the list of steps of the last months for any new members to catch up
-
-##### The first step:
-
-* Create your own robot made with A-Frame Primitives ( `<a-box>, <a-cylinder>, <a-sphere>, ...` ), doesn't have to be humanoid but needs to feature at least one "arm"
-* Maximum Size: **width:1; height:2; depth:1;**
-* No Textures, only HEX colors
-* No Animations (*yet*)
-
-Need Inspiration?
-<img src="images/robots.jpg" alt="robot illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
-
-##### The second step:
-
-* Add six basic emotional expressions to your robot 
-
-1. Cheerful / Happy
-2. Charmed / In Love
-3. Amused / Laughing
-4. Surprised / Shocked
-5. Sad / Dissapointed
-6. Angry / Unhappy
-
-* Create a page that portrays each expression in a line up of your robot (six  individual robots side by side) you can remix [this template](https://glitch.com/edit/#!/a-robots-emotions-template) - [Preview](https://a-robots-emotions-template.glitch.me/)
-
-Tip: You can achieve this expressions by looking into facial impressions, body posture, or other creative ways, maybe even words on a screen, sign or speaking bubble.  
-Research how Pixar, Disney, Dreamworks and other creators are applying emotional cues to inanimate objects. Subtle works.
-
-* [Facebook reactions](https://www.wired.com/2016/02/facebook-reactions-totally-redesigned-like-button/) 
-* [The Emotion Wheel](https://positivepsychologyprogram.com/emotion-wheel/)
-
-Need Inspiration?
-<img src="images/robot_emotions.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
-
-
-##### The third step:
-
-* Apply textures to your robot 
-* Pick one of your emotional states
-* Create a dramatic scene (lights, textures, environment)
-* Take a screenshot and create a cover poster for your Robot
-
-Tip: Think about movie posters, it doesn't have to be complicated.
-
-Need Inspiration?
-<img src="images/ambientrobot.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
-
-
-##### The forth step:
-
-* Create one custom shader
-* Apply the shader to one part of your robot 
-* Show/hide the shader by triggering a custom key/trigger
-
-Tip: Use the shader to visualize engine thrusters, magic powers or emotional cues
-
-Need Inspiration?
-<img src="images/shaderrobot.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
-
+### This year 2019 all meetup members are encouraged to take part of a **Take Home Project** we named **"A-Robots"**. [See here for more details](https://roland-dubois.github.io/aframe-meetup-nyc/a-robots/)
 
 ---
 
