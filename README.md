@@ -198,6 +198,25 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 ---
 
+### Monday, October 29, 2019
+
+<img src="images/halloweenworkshop.jpg" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+**A-Frame 113: Building Immersive Halloween Props in WebAR with AR.JS 2.0**
+
+* [Overview A-Frame 113 & Presentation](https://roland-dubois.github.io/aframe-meetup-nyc/presentations/meetup_aframe113_10-28-2019.pdf)
+
+* [Marker Sheet fot the Ghost Panel Test](images/marker-panel.jpg)
+* [WebAR Ghosts Panel - Marker Test](https://glitch.com/edit/#!/webar-ghosts-panel)
+
+* [WebAR Spider ARCube](https://glitch.com/edit/#!/webar-spider)
+* [WebAR Zombie AR Marker](https://glitch.com/edit/#!/webar-zombie)
+* [WebAR Ghosts GeoAR](https://glitch.com/edit/#!/webar-ghosts)
+
+* Resources: [Spider](https://3dhaupt.com/3d-model-animals-insect-spider-game-ready-low-poly-rigged/), [Ghost](https://poly.google.com/view/9Gn8qCJ_chZ), [Zombie](https://sketchfab.com/3d-models/zombie-walk-422b3cb8e1ed4ea885312541509c1cba#download)
+
+---
+
 ### This year 2019 all meetup members are encouraged to take part of a **Take Home Project** we named **"A-Robots"**. [See here for more details](https://roland-dubois.github.io/aframe-meetup-nyc/a-robots/)
 
 ---
