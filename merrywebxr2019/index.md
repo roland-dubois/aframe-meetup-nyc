@@ -4,7 +4,7 @@
 <img src="assets/snowglobe.png" alt="Snowglobe Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 
-##### For this years holiday season Roland Dubois (#A-Frame_NYC) and Chris Lowery (@Fasility_VR) are presenting an interactive XR snowglobe experience.
+##### For this years holiday season Roland Dubois (#AFrame_NYC) and Chris Lowery (@Fasility_VR) are presenting an interactive XR snowglobe experience.
 
 Press the button to change views: from snowglobe outside-in, to the center of the village inside-out or catching a ride on the train, you pick your immersive perspective. 
 
@@ -19,6 +19,20 @@ Happy holidays and a Happy New Year 2020!
 ---
 
 #### Listed below are the A-Frame models that are being used in the project
+
+
+##### Sound Effects
+Sponsored by [Prime8](http://prime8.io)
+
+1. Sleigh Bells 
+<audio controls><source src="assets/sleighbells.mp3" type="audio/mpeg"></audio>
+2. Propeller Air Plane 
+<audio controls><source src="assets/planesound.mp3" type="audio/mpeg"></audio>
+2. Steam Train 
+<audio controls><source src="assets/trainsound.mp3" type="audio/mpeg"></audio>
+3. Train Whistle 
+<audio controls><source src="assets/trainwhistle.mp3" type="audio/mpeg"></audio>
+
 
 ##### The Village
 <img src="assets/village.png" alt="Village Assets" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
