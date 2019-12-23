@@ -215,9 +215,17 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 * Resources: [Spider](https://3dhaupt.com/3d-model-animals-insect-spider-game-ready-low-poly-rigged/), [Ghost](https://poly.google.com/view/9Gn8qCJ_chZ), [Zombie](https://sketchfab.com/3d-models/zombie-walk-422b3cb8e1ed4ea885312541509c1cba#download)
 
+--- 
+
+### Monday, December 23, 2019
+
+**We are closing this year with the #MerryWebXR Holiday Workshop
+
+[Visit the workshop site for more info](https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/)
+
 ---
 
-### This year 2019 all meetup members are encouraged to take part of a **Take Home Project** we named **"A-Robots"**. [See here for more details](https://roland-dubois.github.io/aframe-meetup-nyc/a-robots/)
+### **Take Home Project** we named **"A-Robots"**. [See here for more details](https://roland-dubois.github.io/aframe-meetup-nyc/a-robots/)
 
 ---
 
