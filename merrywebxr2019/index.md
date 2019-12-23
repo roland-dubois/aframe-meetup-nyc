@@ -3,16 +3,18 @@
 
 <img src="assets/snowglobe.png" alt="Snowglobe Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
-For this years holiday season Roland Dubois from A-Frame NYC and Chris Lowery from Fasility are presenting an interactive XR snowglobe experience.
+
+##### For this years holiday season Roland Dubois (#A-Frame_NYC) and Chris Lowery (@Fasility_VR) are presenting an interactive XR snowglobe experience.
 
 Press the button to change views: from snowglobe outside-in, to the center of the village inside-out or catching a ride on the train, you pick your immersive perspective. 
 
 Looks complicated? Not at all, the entire project is built with simple A-Frame primitives. See below all the pieces , dissect, recreate, mix, and match to create your own snowed-in winter village. 
 
-Share this snowglobe or even better, share your creations under the hashtag #MerryWebXR and celebrate with us the release of A-Frame 1.0, the support of the WebXR API in major browsers, and the bright future of the immersive web. 
+Share this snowglobe or even better, share your creations under the hashtag *#MerryWebXR* and celebrate with us the release of A-Frame 1.0, the support of the WebXR API in major browsers, and the bright future of the immersive web. 
 
 Happy holidays and a Happy New Year 2020!
-Roland Dubois & Chris Lowery
+
+##### Roland Dubois & Chris Lowery
 
 ---
 
@@ -20,6 +22,8 @@ Roland Dubois & Chris Lowery
 
 ##### The Village
 <img src="assets/village.png" alt="Village Assets" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+* [View on Glitch](https://merrywebxr.glitch.me/village.html)
 
 ```html 
 <html>
@@ -194,10 +198,10 @@ Roland Dubois & Chris Lowery
 </html>
 ```
 
-* [View on Glitch](https://merrywebxr.glitch.me/village.html)
-
 ##### The Train
 <img src="assets/train.png" alt="Train Assets" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+* [View on Glitch](https://merrywebxr.glitch.me/train.html)
 
 ```html 
 <html>
@@ -313,10 +317,10 @@ Roland Dubois & Chris Lowery
 </html>
 ```
 
-* [View on Glitch](https://merrywebxr.glitch.me/train.html)
-
 ##### The Propeller Airplane
 <img src="assets/plane.png" alt="Plane Assets" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+* [View on Glitch](https://merrywebxr.glitch.me/plane.html)
 
 ```html 
 <html>
@@ -360,10 +364,10 @@ Roland Dubois & Chris Lowery
 </html>
 ```
 
-* [View on Glitch](https://merrywebxr.glitch.me/plane.html)
-
 ##### The Snowman
 <img src="assets/snowman.png" alt="Snowman Assets" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+* [View on Glitch](https://merrywebxr.glitch.me/snowman.html)
 
 ```html 
 <html>
@@ -393,8 +397,6 @@ Roland Dubois & Chris Lowery
   </body>
 </html>
 ```
-
-* [View on Glitch](https://merrywebxr.glitch.me/snowman.html)
 
 For more inspiration on creating your own snowpeople please visit the 2018 [A-Frame NYC Holiday challenge page](https://roland-dubois.github.io/aframe-meetup-nyc/challenges/)
 <img src="https://roland-dubois.github.io/aframe-meetup-nyc/images/aframeNYCmeetup169_holidayChallenge.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>

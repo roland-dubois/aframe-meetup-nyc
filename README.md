@@ -219,9 +219,11 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 ### Monday, December 23, 2019
 
-**We are closing this year with the #MerryWebXR Holiday Workshop
+<img src="https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/assets/snowglobe.png" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
-[Visit the workshop site for more info](https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/)
+**We are closing this year with the #MerryWebXR Holiday Workshop**
+
+##### [Visit the workshop site for more info](https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/)
 
 ---
 
