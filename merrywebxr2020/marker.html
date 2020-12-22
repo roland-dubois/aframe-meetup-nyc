@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Peace & Wellbeing 2021 by Composure</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+    
+<!--     <script src="https://raw.githack.com/AR-js-org/AR.js/3.3.1/aframe/build/aframe-ar-nft.js"></script> -->
+    <script src="https://raw.githack.com/AR-js-org/AR.js/3.3.1/aframe/build/aframe-ar.js"></script>
+
+    <script src="script.js" defer></script>
+  </head>  
+  
+  <body style="margin: 0px; overflow: hidden;" onclick="clickBody()">
+      
+    <a-scene 
+        embedded 
+        arjs="sourceType: webcam; 
+              debugUIEnabled: false; 
+              patternRatio: 0.8;
+              " 
+        vr-mode-ui="enabled: false"
+    >
+      
+      <a-assets>
+        <img
+          id="water-normal"
+          src="assets/waternormals.jpg"
+          crossorigin="anonymous"
+        />
+        <img
+          id="island-normal"
+          src="islandnormals.jpg"
+          crossorigin="anonymous"
+        />
+        <img
+          id="skysphere"
+          src="assets/landscape360.jpg"
+          crossorigin="anonymous"
+        />
+        <img
+          id="logo-composure"
+          src="assets/logo-composure.png"
+          crossorigin="anonymous"
+        />    
+        
+        <audio id="jingle" src="assets/Holiday_eCard_2020_01.mp3" preload="auto"></audio>
+      </a-assets>
+
+    
+      <a-marker preset="custom" 
+         type="pattern" 
+         url="assets/composure_2020.patt" 
+         size="1"
+         min-confidence="0.6"
+         smooth="false"
+         smooth-count="5"
+         smooth-tolerance="0.01"
+         smooth-threshold="2"
+      > 
+ 
+<!-- ornament start -->
+        <a-entity id="ornament"
+                  geometry="primitive:sphere; radius:1;"
+                  rotation="-90 0 0"
+                  material="color:#fff; side:double; shader:flat; opacity:0.2;"
+                  >
+
+          <a-entity id="landscape"
+              geometry="primitive: sphere; radius: 0.985; thetaLength: 168; thetaStart: 12; phiStart:260" 
+              material="src:#skysphere; side: back; shader: flat">
+          </a-entity>   
+
+          <a-entity id="top-of-ornament"
+                    geometry="primitive: cylinder; radius: 0.2; height: 0.25; segmentsHeight: 1; segmentsRadial: 12; openEnded: true" 
+                    material="color: #d4af37; side: double" 
+                    position="0 1.1 0"
+                    >  
+
+              <a-entity 
+                geometry="primitive: cylinder; radius: 0.22; height: 0.1; segmentsHeight: 1; segmentsRadial: 12" 
+                material="color: #FFD700;" position="0 0.09 0">  
+              </a-entity>          
+
+              <a-entity 
+                  geometry="primitive: torus; radius: 0.14; radiusTubular: 0.01; segmentsRadial: 8; segmentsTubular: 24" 
+                  material="color: #d4af37;" position="0 0.18 0"
+                  >  
+              </a-entity>
+          </a-entity>        
+
+          <a-ocean-plane
+            material="normalMap: #water-normal; sphericalEnvMap: #skysphere;"
+            position="0 -0.1 0"
+          ></a-ocean-plane>
+
+          
+  
+<!-- inside ornament scale start-->
+<a-entity id="interior"
+          scale="1.2 1.2 1.2"
+          position="0 0.015 0"
+          >
+  
+  <!-- splashes start -->
+          <a-entity id="turtlesplash1"
+              geometry="primitive: ring; radiusInner: 0.39; radiusOuter: 0.4" 
+              material="color: #fff; side: double; opacity: 0.8" 
+              position="0 -0.09 0" 
+              rotation="90 0 0" 
+              scale="1 0.8 1" 
+              animation__splash="property: geometry.radiusOuter; from: 0.4; to: 0.44; loop:true; dir:alternate; dur:4400"
+              animation__splashone="property: geometry.radiusInner; from: 0.39; to: 0.44; loop:true; dir:alternate; dur:4500"
+              >
+          </a-entity>
+          <a-entity id="turtlesplash2"
+              geometry="primitive: ring; radiusInner: 0.4; radiusOuter: 0.41" 
+              material="color: #fff; side: double; opacity: 0.8" 
+              position="0 -0.09 0" 
+              rotation="90 0 0" 
+              scale="1 0.8 1" 
+              animation__splash="property: geometry.radiusOuter; from: 0.41; to: 0.45; loop:true; dir:alternate; dur:4400"
+              animation__splashone="property: geometry.radiusInner; from: 0.4; to: 0.45; loop:true; dir:alternate; dur:4500"
+              >
+          </a-entity>
+          <a-entity id="boatsplash"
+              geometry="primitive: ring; radiusInner: 0.04; radiusOuter: 0.045" 
+              material="color: #fff; side: double; opacity: 0.8" 
+              position="0.29311 -0.09 0.31004" 
+              rotation="90 0 0" 
+              scale="1 1 1" 
+              animation__splash="property: geometry.radiusOuter; from: 0.045; to: 0.09; loop:true; dir:alternate; dur:4400"
+              animation__splashone="property: geometry.radiusInner; from: 0.04; to: 0.085; loop:true; dir:alternate; dur:4500"
+              >
+          </a-entity>
+  <!-- splashes end -->
+
+
+  <!-- island start -->
+    <a-entity id="island">
+        <a-entity id="tree1"
+                  scale="0.06 0.06 0.06" 
+                  position="-0.22 -0.03 0.16" 
+                  rotation="0 -30 0"
+                  >
+          <a-entity 
+                    geometry="primitive: torus; arc: 45; radius: 8; radiusTubular: 0.1" 
+                    material="color: orange" 
+                    position="0.2 0 8.5" 
+                    rotation="0 90 0"
+                    >        
+          </a-entity>
+          <a-entity 
+                    geometry="primitive: cone; radiusBottom: 0.17; radiusTop: 0.39; height: 0.43" 
+                    material="color: green" 
+                    position="0.2 5.5 2.7" 
+                    rotation="0 -90 -45"
+                    >     
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>          
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 -1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.9 -0.17 -0.87" rotation="-100 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.96 -0.16 0.9" rotation="-80 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.74 -0.025 0.9" rotation="-90 -40 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.88 0.15 -0.67" rotation="-75 -50 0" scale="1 1 0.3">     
+              </a-entity>
+          </a-entity>                        
+        </a-entity>
+
+        <a-entity id="tree2" 
+                  scale="0.06 0.06 0.06" 
+                  position="-0.25 -0.03 -0.126" 
+                  rotation="-13 75 -6"
+                  >
+          <a-entity geometry="primitive: torus; arc: 45; radius: 8; radiusTubular: 0.1" material="color: orange" position="0.2 0 8.5" rotation="0 90 0">        
+          </a-entity>
+          <a-entity geometry="primitive: cone; radiusBottom: 0.17; radiusTop: 0.39; height: 0.43" material="color: green" position="0.2 5.5 2.7" rotation="0 -90 -45">     
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>          
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 -1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.9 -0.17 -0.87" rotation="-100 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.96 -0.16 0.9" rotation="-80 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.74 -0.025 0.9" rotation="-90 -40 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.88 0.15 -0.67" rotation="-75 -50 0" scale="1 1 0.3">     
+              </a-entity>
+          </a-entity>         
+
+          <a-entity geometry="primitive: torus; arc: 45; radius: 8; radiusTubular: 0.1" material="color: orange" position="-8 0 0">        
+          </a-entity>              
+          <a-entity geometry="primitive: cone; radiusBottom: 0.17; radiusTop: 0.39; height: 0.43" material="color: green" position="-2.2 5.5 0" rotation="0 180 -45">     
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>          
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 -1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.9 -0.17 -0.87" rotation="-100 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.96 -0.16 0.9" rotation="-80 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.74 -0.025 0.9" rotation="-90 -40 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.88 0.15 -0.67" rotation="-75 -50 0" scale="1 1 0.3">     
+              </a-entity>
+          </a-entity>                 
+        </a-entity>
+
+
+        <a-entity id="tree3" 
+                  scale="0.06 0.06 0.06" 
+                  position="0.25 -0.03 0" 
+                  rotation="0 160 -6"
+                  >
+          <a-entity geometry="primitive: torus; arc: 45; radius: 8; radiusTubular: 0.1" material="color: orange" position="0.2 0 8.5" rotation="0 90 0">        
+          </a-entity>
+          <a-entity geometry="primitive: cone; radiusBottom: 0.17; radiusTop: 0.39; height: 0.43" material="color: green" position="0.2 5.5 2.7" rotation="0 -90 -45">     
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>          
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 -1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.9 -0.17 -0.87" rotation="-100 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.96 -0.16 0.9" rotation="-80 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.74 -0.025 0.9" rotation="-90 -40 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.88 0.15 -0.67" rotation="-75 -50 0" scale="1 1 0.3">     
+              </a-entity>
+          </a-entity>         
+
+          <a-entity geometry="primitive: torus; arc: 45; radius: 8; radiusTubular: 0.1" material="color: orange" position="-8 0 0">        
+          </a-entity>              
+          <a-entity geometry="primitive: cone; radiusBottom: 0.17; radiusTop: 0.39; height: 0.43" material="color: green" position="-2.2 5.5 0" rotation="0 180 -45">     
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>          
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0 0 -1.3" rotation="-90 0 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.9 -0.17 -0.87" rotation="-100 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.96 -0.16 0.9" rotation="-80 45 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="-0.74 -0.025 0.9" rotation="-90 -40 0" scale="1 1 0.3">     
+              </a-entity>
+              <a-entity geometry="primitive: sphere; radius: 1.25; phiLength: 30; phiStart: 75" material="color: green; side: double" position="0.88 0.15 -0.67" rotation="-75 -50 0" scale="1 1 0.3">     
+              </a-entity>
+          </a-entity>                 
+        </a-entity>    
+
+        <a-entity id="hammock"
+                  scale="1.2 1.2 1.2" 
+                  position="-0.235 0.15 0.03146"
+                  animation__swing="property: rotation; from: 0 0 -10; to: 0 0 10; loop:true; dir:alternate; dur:5000"
+                  >
+
+            <a-entity
+                  geometry="primitive: sphere; radius: 0.14; phiLength: 50; phiStart: 70" 
+                  material="color: white; side: double" 
+                  position="0 0 0" 
+                  rotation="93 -4.35 0" 
+                  scale="1 1 0.65"
+                  >     
+            </a-entity>        
+
+            <a-entity geometry="primitive: sphere; radius: 0.06" material="color: red" position="0.00875 -0.04166 0" rotation="" scale="1 0.8 1"></a-entity>
+          <a-entity geometry="primitive: torus; radius: 0.09; radiusTubular: 0.01" material="color: #bc0101" position="0.00875 -0.0391 -0.01821" rotation="10 0 0" scale="0.54 0.45 0.99"></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.05" material="color: #e8a1a1" position="0.00837 -0.03912 -0.03896" rotation="" scale="1 0.8 1"></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.03" material="color: #e8a1a1" position="0.00971 -0.01969 -0.09798" rotation="" scale=""></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.03" material="color: #ffffff" position="0.01076 -0.01434 -0.0782" rotation="" scale="1 0.8 1"></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.015" material="color: #ffffff" position="0.01076 -0.0005 -0.06255" rotation="" scale="1.25 0.8 1.15"></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.008" material="color: #e28d8d" position="0.01009 0.00938 -0.08587" rotation="" scale=""></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.005" material="color: #e28d8d" position="0.00169 0.00643 -0.09442" rotation="" scale="1.25 1 1"></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.005" material="color: #e28d8d" position="0.01937 0.00643 -0.09442" rotation="" scale="1.25 1 1"></a-entity>
+          <a-entity geometry="primitive: torus; radius: 0.045; radiusTubular: 0.005" material="color: #e8a1a1" position="0.01054 -0.03736 -0.08841" rotation="-68.4 -1.24 -8.71" scale="1.12 0.78 1"></a-entity>
+          <a-entity geometry="primitive: torus; radius: 0.06; arc: 90; radiusTubular: 0.007" material="color: red" position="0.03053 -0.10723 0.03081" rotation="0 -45 0" scale=""></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.02" material="color: #bc0101" position="0.07407 -0.10898 0.08326" rotation="10 0 0" scale="0.86 0.61 1.35"></a-entity>
+          <a-entity geometry="primitive: torus; radius: 0.06; arc: 90; radiusTubular: 0.007" material="color: red" position="-0.0013 -0.07788 0.0825" rotation="-20 90 30" scale=""></a-entity>
+          <a-entity geometry="primitive: sphere; radius: 0.02" material="color: #bc0101" position="-0.02099 -0.02221 0.1188" rotation="120 0 0" scale="0.86 0.61 1.35"></a-entity>
+
+
+        </a-entity>
+
+        <a-entity id="tikibar"
+                  rotation="0 -30 0" 
+                  scale="0.35 0.35 0.35" 
+                  position="0.092 -0.027 -0.163"
+                  >
+          <a-entity geometry="depth: 0.2; height: 0.4; width: 0.5" material="color: orange" position="0 0.2 0">        
+          </a-entity>
+          <a-entity geometry="depth: 0.24; height: 0.05; width: 0.56" material="color: brown" position="0 0.4 0">        
+          </a-entity>
+
+          <a-entity geometry="depth: 0.25; height: 0.02; width: 0.5" material="color: brown" position="0 0.8 0.12" rotation="20 0 0">        
+          </a-entity>        
+          <a-entity geometry="depth: 0.25; height: 0.02; width: 0.5" material="color: brown" position="0 0.8 -0.12" rotation="-20 0 0">        
+          </a-entity>       
+          <a-entity geometry="depth: 0.04; height: 0.05; width: 0.5" material="color: orange" position="0 0.86 0">        
+          </a-entity>        
+
+          <a-entity geometry="depth: 0.03; height: 0.9; width: 0.03" material="color: orange" position="0.25 0.45 0">        
+          </a-entity>      
+          <a-entity geometry="depth: 0.03; height: 0.9; width: 0.03" material="color: orange" position="-0.25 0.45 0">        
+          </a-entity>      
+
+          <a-entity geometry="height: 0.03; primitive: cylinder; radius: 0.1" material="color: brown" position="-0.12 0.3 0.3">        
+          </a-entity>
+          <a-entity geometry="height: 0.29; primitive: cylinder; radius: 0.02" material="color: orange" position="-0.12 0.145 0.3">        
+          </a-entity>
+
+
+          <a-entity geometry="height: 0.03; primitive: cylinder; radius: 0.1" material="color: brown" position="0.12 0.3 0.3">        
+          </a-entity>
+          <a-entity geometry="height: 0.29; primitive: cylinder; radius: 0.02" material="color: orange" position="0.12 0.145 0.3">        
+          </a-entity>
+
+
+
+          <a-entity geometry="height: 0.01; primitive: cylinder; radius: 0.02" material="color: #0037ff; opacity: 0.6" position="-0.125 0.43 0.03"></a-entity>
+          <a-entity geometry="height: 0.04; primitive: cylinder; radius: 0.022" material="color: #ff6f00; opacity: 0.6" position="-0.125 0.455 0.03"></a-entity>
+          <a-entity geometry="height: 0.02; primitive: cylinder; radius: 0.022" material="color: #ff6f00; opacity: 0.6" position="-0.125 0.465 0.03"></a-entity>
+          <a-entity geometry="height: 0.01; primitive: cylinder; radius: 0.024" material="color: #fff700; opacity: 0.6" position="-0.125 0.48 0.03"></a-entity>
+          <a-entity geometry="height: 0.01; primitive: cylinder; radius: 0.026" material="color: #ff0000; opacity: 0.6" position="-0.125 0.49 0.03"></a-entity>
+          <a-entity geometry="height: 0.01; primitive: cylinder; radius: 0.028" material="color: #ffffff; opacity: 0.6" position="-0.125 0.5 0.03"></a-entity>
+          <a-entity geometry="height: 0.005; primitive: cylinder; radius: 0.02" material="color: #ff6f00" position="-0.1 0.5 0.03" rotation="90 0 0"></a-entity>
+
+        </a-entity>
+
+        <a-entity id="boat" 
+                  rotation="-26.42 220 -3.29" 
+                  scale="0.35 0.35 0.35" 
+                  position="0.22648 -0.05267 0.22301"
+                  >
+          <a-entity geometry="primitive: torus; radius: 0.4; segmentsRadial: 3; radiusTubular: 0.02; segmentsTubular: 10" material="color: #502402; flatShading: true" position="0 0.06115 0" rotation="-90 0 0" scale="0.4 1 2"></a-entity>
+          <a-entity geometry="height: 0.03; primitive: cylinder; radius: 0.39; segmentsHeight: 10; segmentsRadial: 10" material="color: #753300" position="0 0.01135 0" rotation="0 90 0" scale="1 1 0.4"></a-entity>
+          <a-entity geometry="height: 0.02; depth: 0.07; width: 0.26" material="color: #522300" position="0 0.10605 -0.11491" rotation="" scale=""></a-entity>
+          <a-entity geometry="height: 0.02; depth: 0.07; width: 0.26" material="color: #522300" position="0 0.10605 0.11672" rotation="" scale=""></a-entity>
+          <a-entity geometry="height: 0.6; primitive: cylinder; radius: 0.01" material="color: #753300" position="0.03951 0.12352 -0.00443" rotation="84.61 10 5" scale=""></a-entity>
+          <a-entity geometry="height: 0.6; primitive: cylinder; radius: 0.01" material="color: #753300" position="-0.00743 0.12477 -0.0103" rotation="90 0 0" scale=""></a-entity>
+        </a-entity>
+
+        <a-entity id="logo" 
+                  geometry="primitive: cylinder; height: 0.08; radius: 0.1" 
+                  material="color: #112364" 
+                  sound="src: #jingle; loop: true;"
+                  position="0 0 0.02"
+                  >
+            <a-entity 
+                      geometry="primitive: plane; width: 0.15; height: 0.15" 
+                      material="src: #logo-composure; transparent: true; shader: flat" 
+                      rotation="-90 0 0" 
+                      position="0 0.045 0"
+                      >  
+            </a-entity>
+        </a-entity>    
+
+
+    </a-entity>     
+  <!-- island end -->
+
+  <!-- turtle start -->
+    <a-entity id="turtle" 
+              scale="0.65 0.65 0.65" 
+              position="0 -0.175 0"
+              >
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.65; thetaStart: -90" 
+                  material="
+                            color: #8a5000;
+                            metalness: 0.4;
+                            roughness: 0.65;
+                            normalMap: #island-normal;
+                            normalTextureRepeat: 1 1;
+                            normalTextureOffset: 0 0;
+                            normalScale: 1 1;
+                            " 
+                  scale="1 0.5 0.8" 
+                  position="0 0 0"
+                  >
+        </a-entity>
+
+
+        <a-entity 
+                  geometry="primitive: torus; radius: 0.62; radiusTubular: 0.02" 
+                  material="color: #3f2603" 
+                  scale="1 0.83 1" 
+                  position="0 0 0" 
+                  rotation="90 0 0"
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: torus; radius: 0.58; radiusTubular: 0.02" 
+                  material="color: #291000" 
+                  scale="1 0.83 1" 
+                  position="0 -0.04 0" 
+                  rotation="90 0 0"
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.63" 
+                  material="color: #291000" 
+                  scale="1 0.1 0.94" 
+                  position="0 -0.04467 0" 
+                  rotation="0 0 0"
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.65; thetaStart: 90" 
+                  material="color: #2f3c25" 
+                  scale="0.9 0.3 0.76" 
+                  position="0 0 0"
+                  >
+        </a-entity>      
+
+        <a-entity 
+                  geometry="primitive: torus; radius: 0.12; radiusTubular: 0.02" 
+                  material="color: #291000" 
+                  scale="1 0.75 1" 
+                  position="-0.595 -0.015 0" 
+                  rotation="-35 90 0"
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: torus; radius: 0.09; radiusTubular: 0.02" 
+                  material="color: #291000" 
+                  scale="1 0.75 1" 
+                  position="0.615 -0.015 0" 
+                  rotation="35 90 0"
+                  >
+        </a-entity>    
+        <a-entity 
+                  geometry="primitive: torus; radius: 0.1; radiusTubular: 0.02" 
+                  material="color: #291000" 
+                  scale="1 0.75 1" 
+                  position="-0.525 -0.045 0.19" 
+                  rotation="-35 120 0"
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: torus; radius: 0.1; radiusTubular: 0.02" 
+                  material="color: #291000" 
+                  scale="1 0.75 1" 
+                  position="-0.525 -0.045 -0.19" 
+                  rotation="35 -120 0"
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: torus; radius: 0.08; radiusTubular: 0.02" 
+                  material="color: #291000" 
+                  scale="1 0.75 1" 
+                  position="0.57 -0.06 -0.125" 
+                  rotation="-35 -70 0">
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: torus; radius: 0.08; radiusTubular: 0.02" 
+                  material="color: #291000" 
+                  scale="1 0.75 1" 
+                  position="0.57 -0.06 0.125" 
+                  rotation="35 70 0">
+        </a-entity>
+
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.09; phiLength: 180" 
+                  material="color: #485148" 
+                  scale="0.7 0.5 1.4" 
+                  position="0.625 -0.015 0" 
+                  rotation="20 90 0"
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.16; phiLength: 180; phiStart: 180" 
+                  material="color: #485148" 
+                  scale="0.74 0.5 2" 
+                  position="-0.55 -0.025 0" 
+                  rotation="0 90 0"
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.15; thetaLength: 110; thetaStart: 70" 
+                  material="color: #485148; side: double" 
+                  scale="1 0.8 0.7" 
+                  position="-0.85 -0.04 0" 
+                  rotation="180 0 0"
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.13; thetaLength: 110; thetaStart: 70" 
+                  material="color: #3b443b; side: double" 
+                  scale="1 0.65 0.7" 
+                  position="-0.84 -0.0675 0" 
+                  rotation="0 0 0"
+                  >
+        </a-entity>
+
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.025" 
+                  material="color: #000; side: double" 
+                  position="-0.95 0 0.06" 
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.03; phiLength: 320" 
+                  material="color: #22331a; side: double" 
+                  position="-0.95 0 0.06" rotation="30 90 0">
+        </a-entity>
+
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.025" 
+                  material="color: #000; side: double" 
+                  position="-0.95 0 -0.06" 
+                  >
+        </a-entity>
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.03; phiLength: 320" 
+                  material="color: #22331a; side: double" 
+                  position="-0.95 0 -0.06" rotation="-30 -45 0">
+        </a-entity>
+
+        <a-entity
+            position="-0.5 -0.07 0.18" 
+            animation="property: rotation; to: 0 10 0; from: 0 -10 0; dur: 2000; dir: alternate; easing: easeInOutQuad; loop: true"
+            >
+            <a-entity 
+                      geometry="primitive: sphere; radius: 0.12; phiLength: 180; phiStart: 180" 
+                      material="color: #485148" 
+                      scale="0.74 0.5 2.5" 
+                      position="0 0 0"
+                      rotation="-15 120 0">
+            </a-entity>
+            <a-entity 
+                      position="-0.225 -0.065 0.14" 
+                      animation="property: rotation; to: 0 10 0; from: 0 -10 0; dur: 2000; dir: alternate; easing: easeInOutQuad; loop: true"
+                      >        
+                <a-entity 
+                          geometry="primitive: sphere; radius: 0.03" 
+                          material="color: #485148" 
+                          scale="3.5 0.63 12" 
+                          position="0.165 -0.05 0.265" 
+                          rotation="10 30 30"
+                          >
+                </a-entity>
+            </a-entity>
+        </a-entity>    
+
+        <a-entity
+            position="-0.5 -0.07 -0.18" 
+            animation="property: rotation; to: 0 -10 0; from: 0 10 0; dur: 2000; dir: alternate; easing: easeInOutQuad; loop: true"
+            >
+            <a-entity 
+                      geometry="primitive: sphere; radius: 0.12; phiLength: 180; phiStart: 180" 
+                      material="color: #485148" 
+                      scale="0.74 0.5 2.5" 
+                      position="0 0 0" 
+                      rotation="-15 70 0">
+            </a-entity>
+            <a-entity 
+                      position="-0.242 -0.065 -0.074" 
+                      animation="property: rotation; to: 0 -10 0; from: 0 10 0; dur: 2000; dir: alternate; easing: easeInOutQuad; loop: true"
+                      >        
+                <a-entity 
+                          geometry="primitive: sphere; radius: 0.03" 
+                          material="color: #485148" 
+                          scale="3.5 0.63 12" 
+                          position="0.165 -0.05 -0.285" 
+                          rotation="-10 -30 30"
+                          >
+                </a-entity>
+            </a-entity>           
+        </a-entity>    
+
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.2" 
+                  material="color: #485148" 
+                  scale="1 0.12 0.4" 
+                  position="0.7 -0.09 -0.15" 
+                  rotation="-40 25 -10"
+                  >
+        </a-entity>            
+        <a-entity 
+                  geometry="primitive: sphere; radius: 0.2" 
+                  material="color: #485148" 
+                  scale="1 0.12 0.4" 
+                  position="0.7 -0.09 0.15" 
+                  rotation="40 -25 -20"
+                  >
+        </a-entity>
+    </a-entity>
+  <!-- turtle end -->
+</a-entity>
+<!-- inside ornament scale end -->
+
+
+        </a-entity>
+<!-- ornament end -->       
+
+        <a-entity light="intensity: 0.3; castShadow: true" position="0 1 -2"></a-entity>      
+        <a-entity light="color: #f5faff; type: ambient"></a-entity>
+
+
+      </a-marker>
+       
+      <a-entity camera></a-entity> 
+    
+    </a-scene>
+    
+    <div id="snowtl"></div><div id="snowtr"></div><div id="snowbl"></div><div id="snowbr"></div>
+    
+    
+    <div id="footer">
+      <p><em>Peace & Wellbeing for 2021</em><br><span>Season’s Greetings </span><span><a href="https://www.composure.site/" target="_blank"> from Composure</a></span></p>
+    </div>    
+
+    <div id="triggersnd" >Tap for sound</div>
+    
+  </body>
+</html>
