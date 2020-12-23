@@ -221,8 +221,6 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 <img src="https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/assets/snowglobe.png" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
-**We are closing this year with the #MerryWebXR Holiday Workshop**
-
 ##### [Visit the workshop site for more info](https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/)
 
 ---
@@ -230,6 +228,32 @@ https://aframe-nyc-new-ani.glitch.me/)
 ### **Take Home Project** we named **"A-Robots"**. [See here for more details](https://roland-dubois.github.io/aframe-meetup-nyc/a-robots/)
 
 ---
+
+### Wednesday, October 30, 2020
+
+<img src="images/pumpkinchucking.jpg" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+**A-Frame 114: A-Frame 114 Workshop; Immersive Pumpkin Chunkin' building with physics in VR**
+
+* [A-Frame 114 Presentation Recording](https://www.youtube.com/watch?v=Z9DOO5L7t8Y)
+
+* [Demo](https://a-frame-114-workshop.glitch.me/demo.html)
+* [Remix](https://glitch.com/edit/#!/a-frame-114-workshop)
+
+---
+
+### Wednesday, December 23, 2020
+
+<img src="https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2020/assets/ARnament.jpg" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+**We are closing this year with the #MerryWebXR 2020 Holiday Workshop**
+
+##### [Visit the workshop site for more info](https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2020/)
+
+---
+
+
+
 
 ## Meetup Resources
 * Dev Starter Files: [00_A-Frame_starter](https://roland-dubois.github.io/aframe-meetup-nyc/demos/00_A-Frame_starter/)
