@@ -4,16 +4,19 @@
 <img src="assets/ARnament.jpg" alt="ARnament Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
 
+#### Generate NFT Tracking Images
+[NFT Marker Creator](https://carnaux.github.io/NFT-Marker-Creator/)
+(node script version: https://github.com/Carnaux/NFT-Marker-Creator)
 
-https://carnaux.github.io/NFT-Marker-Creator/
+#### Generate AR Tracking Markers
+[AR.js Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
 
 
-
-<img src="assets/greetingcard2020_marker.jpg" alt="greetingcard2020_marker Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+<img src="assets/greetingcard2020_marker.png" alt="greetingcard2020_marker Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2020/marker.html
 
 
-<img src="assets/greetingcard2020_nft.jpg" alt="greetingcard2020_nft Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+<img src="assets/greetingcard2020_nft.png" alt="greetingcard2020_nft Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2020/nft.html
 
 
