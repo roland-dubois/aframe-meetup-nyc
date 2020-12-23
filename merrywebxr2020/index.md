@@ -416,11 +416,16 @@ Sponsored by [Composure](http://composure.site)
 
 For more inspiration on creating your own immersive experiences please visit:
 
-- the 2019 [A-Frame NYC Holiday challenge page](https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/)
+#### the 2019 [A-Frame NYC Holiday challenge page](https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/)
 <img src="https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/assets/snowglobe.png" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
-- the 2018 [A-Frame NYC Holiday challenge page](https://roland-dubois.github.io/aframe-meetup-nyc/challenges/)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I came back to New York to this <a href="https://twitter.com/hashtag/AR?src=hash&amp;ref_src=twsrc%5Etfw">#AR</a> holiday card from <a href="https://twitter.com/rolanddubois?ref_src=twsrc%5Etfw">@rolanddubois</a>. The best way to start the new year is AR for everyone. The power of <a href="https://twitter.com/hashtag/web?src=hash&amp;ref_src=twsrc%5Etfw">#web</a>. <a href="https://twitter.com/hashtag/webAR?src=hash&amp;ref_src=twsrc%5Etfw">#webAR</a> <a href="https://twitter.com/hashtag/webXR?src=hash&amp;ref_src=twsrc%5Etfw">#webXR</a> <a href="https://twitter.com/hashtag/aframe_nyc?src=hash&amp;ref_src=twsrc%5Etfw">#aframe_nyc</a> <a href="https://twitter.com/hashtag/aframe?src=hash&amp;ref_src=twsrc%5Etfw">#aframe</a> <a href="https://twitter.com/aframevr?ref_src=twsrc%5Etfw">@aframevr</a> <a href="https://t.co/kcA2MY9uYj">pic.twitter.com/kcA2MY9uYj</a></p>&mdash; Sam Brewton 🗽🇺🇸🚀 (@ironandsilk) <a href="https://twitter.com/ironandsilk/status/1217261384444104705?ref_src=twsrc%5Etfw">January 15, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+#### the 2018 [A-Frame NYC Holiday challenge page](https://roland-dubois.github.io/aframe-meetup-nyc/challenges/)
 <img src="https://roland-dubois.github.io/aframe-meetup-nyc/images/aframeNYCmeetup169_holidayChallenge.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Season&#39;s Greetings! Made my own WebAR snowman holiday greeting card with <a href="https://twitter.com/aframevr?ref_src=twsrc%5Etfw">@aframevr</a>! Thanks <a href="https://twitter.com/rolanddubois?ref_src=twsrc%5Etfw">@rolanddubois</a> for the tutorial at the <a href="https://twitter.com/hashtag/aframe_nyc?src=hash&amp;ref_src=twsrc%5Etfw">#aframe_nyc</a> x <a href="https://twitter.com/immersivenyc?ref_src=twsrc%5Etfw">@immersivenyc</a> immersive holiday challenge and <a href="https://twitter.com/macspaddy?ref_src=twsrc%5Etfw">@macspaddy</a> for the custom holiday jingles! <a href="https://twitter.com/hashtag/WebVR?src=hash&amp;ref_src=twsrc%5Etfw">#WebVR</a> <a href="https://twitter.com/hashtag/WebAR?src=hash&amp;ref_src=twsrc%5Etfw">#WebAR</a> <a href="https://twitter.com/hashtag/WebXR?src=hash&amp;ref_src=twsrc%5Etfw">#WebXR</a> <a href="https://t.co/C2FviS5kBf">pic.twitter.com/C2FviS5kBf</a></p>&mdash; Debra (Anderson) McGrory (@debra_mcgrory) <a href="https://twitter.com/debra_mcgrory/status/1075066760825618435?ref_src=twsrc%5Etfw">December 18, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ---
