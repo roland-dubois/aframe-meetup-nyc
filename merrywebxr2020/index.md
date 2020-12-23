@@ -411,9 +411,14 @@ Sponsored by [Composure](http://composure.site)
 ```
 
 
+---
+
+
 For more inspiration on creating your own immersive experiences please visit:
 
 - the 2019 [A-Frame NYC Holiday challenge page](https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/)
+<img src="https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/assets/snowglobe.png" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
 - the 2018 [A-Frame NYC Holiday challenge page](https://roland-dubois.github.io/aframe-meetup-nyc/challenges/)
 <img src="https://roland-dubois.github.io/aframe-meetup-nyc/images/aframeNYCmeetup169_holidayChallenge.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
