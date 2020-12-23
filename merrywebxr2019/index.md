@@ -412,8 +412,15 @@ Sponsored by [Prime8](http://prime8.io)
 </html>
 ```
 
-For more inspiration on creating your own snowpeople please visit the 2018 [A-Frame NYC Holiday challenge page](https://roland-dubois.github.io/aframe-meetup-nyc/challenges/)
+---
+
+
+For more inspiration on creating your own immersive experiences please visit:
+
+#### the 2018 [A-Frame NYC Holiday challenge page](https://roland-dubois.github.io/aframe-meetup-nyc/challenges/)
 <img src="https://roland-dubois.github.io/aframe-meetup-nyc/images/aframeNYCmeetup169_holidayChallenge.jpg" alt="robot emotion illustrations" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Season&#39;s Greetings! Made my own WebAR snowman holiday greeting card with <a href="https://twitter.com/aframevr?ref_src=twsrc%5Etfw">@aframevr</a>! Thanks <a href="https://twitter.com/rolanddubois?ref_src=twsrc%5Etfw">@rolanddubois</a> for the tutorial at the <a href="https://twitter.com/hashtag/aframe_nyc?src=hash&amp;ref_src=twsrc%5Etfw">#aframe_nyc</a> x <a href="https://twitter.com/immersivenyc?ref_src=twsrc%5Etfw">@immersivenyc</a> immersive holiday challenge and <a href="https://twitter.com/macspaddy?ref_src=twsrc%5Etfw">@macspaddy</a> for the custom holiday jingles! <a href="https://twitter.com/hashtag/WebVR?src=hash&amp;ref_src=twsrc%5Etfw">#WebVR</a> <a href="https://twitter.com/hashtag/WebAR?src=hash&amp;ref_src=twsrc%5Etfw">#WebAR</a> <a href="https://twitter.com/hashtag/WebXR?src=hash&amp;ref_src=twsrc%5Etfw">#WebXR</a> <a href="https://t.co/C2FviS5kBf">pic.twitter.com/C2FviS5kBf</a></p>&mdash; Debra (Anderson) McGrory (@debra_mcgrory) <a href="https://twitter.com/debra_mcgrory/status/1075066760825618435?ref_src=twsrc%5Etfw">December 18, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 ---
