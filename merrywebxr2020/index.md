@@ -1,5 +1,5 @@
 ## Welcome to the A-Frame NYC
-# Merry WebXR Holiday Workshop 2020 #ARnament NFT tracking
+# A-Frame End Of The Year 2020: #MerryWebXR 2020 Holiday Workshop; Holiday ARnament
 
 <img src="assets/ARnament.jpg" alt="ARnament Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
@@ -11,15 +11,18 @@
 #### Generate AR Tracking Markers
 [AR.js Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html)
 
+---
 
 <img src="assets/greetingcard2020_marker.png" alt="greetingcard2020_marker Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
 https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2020/marker.html
 
 
 <img src="assets/greetingcard2020_nft.png" alt="greetingcard2020_nft Preview" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
+
 https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2020/nft.html
 
-
+---
 
 #### Listed below are the A-Frame models that are being used in the project
 

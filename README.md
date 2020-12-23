@@ -221,7 +221,7 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 <img src="https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/assets/snowglobe.png" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
-**A-Frame end of 2019: #MerryWebXR 2019 Holiday Workshop; Immersive Snowglobe Experience**
+**A-Frame End Of The Year 2019: #MerryWebXR 2019 Holiday Workshop; Immersive Snowglobe Experience**
 
 
 ##### [Visit the workshop site for more info](https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2019/)
@@ -249,7 +249,7 @@ https://aframe-nyc-new-ani.glitch.me/)
 
 <img src="https://roland-dubois.github.io/aframe-meetup-nyc/merrywebxr2020/assets/ARnament.jpg" alt="workshop screenshot" style="width: 90%; box-shadow: 0 5px 15px rgba(0,0,0,0.15);"/>
 
-**A-Frame end of 2020: #MerryWebXR 2020 Holiday Workshop; Holiday ARnament**
+**A-Frame End Of The Year 2020: #MerryWebXR 2020 Holiday Workshop; Holiday ARnament**
 
 
 
